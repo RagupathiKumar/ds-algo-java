@@ -1,9 +1,12 @@
 package com.commonpatterns;
 
+import java.util.Arrays;
+
 public class TwoPointersTechnique {
 
     public static void main(String[] args) {
-        findPair();
+        // findPair();
+        findFour();
     }
 
     static void findPair() {
@@ -22,10 +25,37 @@ public class TwoPointersTechnique {
                 j -= 1;
             } else {
                 System.out.println(String.format("Pair found :: %s - %s", i, j));
+                System.out.println(String.format("Value pair found :: %s - %s", arr[i], arr[j]));
                 return;
             }
         }
 
         System.out.println("No pair found.");
+    }
+
+    static void findFour() {
+        int arr[] = { 1, 4, 45, 5, 7, 20, 6, 10, 12 };
+        int x = 21;
+
+        Arrays.sort(arr);
+
+        for (int i = 0; i < arr.length - 3; i++) {
+            for (int j = i + 1; j < arr.length - 2; j++) {
+
+                int k = j + 1, l = arr.length - 1;
+                
+                while (k < l) {
+                    int sum = arr[i] + arr[j] + arr[k] + arr[l];
+                    if (sum == x) {
+                        System.out.println(String.format("Values :: %s %s %s %s", arr[i], arr[j], arr[k], arr[l]));
+                        return;
+                    } else if (sum < x) {
+                        k++;
+                    } else if (sum > x) {
+                        l--;
+                    }
+                }
+            }
+        }
     }
 }
