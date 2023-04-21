@@ -1,6 +1,6 @@
 package com.binarytree;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class ReverseLevelOrderTraversal {
 
@@ -13,6 +13,7 @@ public class ReverseLevelOrderTraversal {
         root = demo.getRoot();
 
         reverseLevelOrderTraverseUsingRecursion();
+        reverseLevelOrderTraverseUsingQueueAndStack();
     }
 
     static int height(TreeNode<Integer> node) {
@@ -39,6 +40,7 @@ public class ReverseLevelOrderTraversal {
             traverseLevel(root, level);
         }
 
+        System.out.println("");
     }
 
     static void traverseLevel(TreeNode<Integer> node, int level) {
@@ -54,6 +56,34 @@ public class ReverseLevelOrderTraversal {
 
     static void reverseLevelOrderTraverseUsingQueueAndStack() {
 
+        if (root == null) {
+            return;
+        }
+
+        Queue<TreeNode<Integer>> q = new LinkedList<>();
+        Stack<TreeNode<Integer>> s = new Stack<>();
+
+        q.offer(root);
+
+        while (!q.isEmpty()) {
+
+            TreeNode<Integer> node = q.poll();
+
+            if (node.right != null) {
+                q.offer(node.right);
+            }
+
+            if (node.left != null) {
+                q.offer(node.left);
+            }
+
+            s.push(node);
+        }
+
+        while (!s.isEmpty()) {
+            TreeNode<Integer> node = s.pop();
+            System.out.print(node.val + " ");
+        }
     }
 
 }
