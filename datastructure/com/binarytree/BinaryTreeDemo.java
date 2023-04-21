@@ -5,9 +5,13 @@ import java.util.*;
 public class BinaryTreeDemo {
 
 
-    private static TreeNode<Integer> root = null;
+    private TreeNode<Integer> root = null;
+
+    public TreeNode<Integer> getRoot() { return root; }
 
     public static void main(String[] args) {
+
+        BinaryTreeDemo demo = new BinaryTreeDemo();
 
 //        TreeNode<Integer> root = new TreeNode<>(1);
 //        root.left = new TreeNode<>(2);
@@ -19,18 +23,18 @@ public class BinaryTreeDemo {
 
 //        levelOrderTraverse(root);
 
-        Arrays.asList(1, 2, 3, 4, 5).stream().forEach(BinaryTreeDemo::insert);
+        Arrays.asList(1, 2, 3, 4, 5).stream().forEach(demo::insert);
 
 //        insert(1);
 //        insert(2);
 //        insert(3);
 //        insert(4);
 //        insert(root, 1);
-        levelOrderTraverse();
+        demo.levelOrderTraverse();
 //        levelOrderTraverse(root);
     }
 
-    public static void levelOrderTraverse() {
+    public void levelOrderTraverse() {
 //    public static void levelOrderTraverse(TreeNode<Integer> root) {
 
         if (root == null) {
@@ -54,7 +58,7 @@ public class BinaryTreeDemo {
         }
     }
 
-    public static void insert(Integer val) {
+    public void insert(Integer val) {
 //    public static void insert(TreeNode<Integer> root, Integer val) {
 
         TreeNode<Integer> newNode = new TreeNode<>(val);
