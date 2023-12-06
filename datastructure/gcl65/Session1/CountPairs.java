@@ -16,10 +16,9 @@ public class CountPairs {
         int j = arr.length - 1;
 
         while (i < j) {
-            int total = arr[i] + arr[j];
-            if (total > sum) {
+            if (arr[i] + arr[j] > sum) {
                 j--;
-            } else if (total < sum) {
+            } else if (arr[i] + arr[j] < sum) {
                 i++;
             } else {
                 cnt += 1;
