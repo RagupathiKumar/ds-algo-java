@@ -18,6 +18,27 @@ public class SearchIn2DMatrix {
 
     private static void searchByChaman(int[][] arr, int target) {
 
+        int start = 0, end = (arr.length * arr[0].length) - 1;
+        int rowSize = arr.length;
+        boolean found = false;
+
+        while (start <= end) {
+
+            int mid = (start + end) / 2;
+            int row = mid / rowSize, col = mid % rowSize;
+
+            if (target < arr[row][col]) {
+                end = mid - 1;
+            } else if (target > arr[row][col]) {
+                start = mid + 1;
+            } else {
+                System.out.println(row + " x " + col);
+                found = true;
+                break;
+            }
+        }
+
+        System.out.println(found);
     }
 
     // Space -- O(1), Time -- O(logN + logM)
