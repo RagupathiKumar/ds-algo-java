@@ -1,6 +1,6 @@
 package gcl65.Session1;
 
-import gcl65.Common.Util;
+import java.util.Arrays;
 
 public class ProductOfArrayExceptSelf {
 
@@ -35,7 +35,7 @@ public class ProductOfArrayExceptSelf {
         }
         result[0] = rightProduct;
 
-        Util.print(result);
+        System.out.println(Arrays.toString(result));
     }
 
     /**
@@ -64,7 +64,7 @@ public class ProductOfArrayExceptSelf {
             output[i] = leftProduct * rightProduct;
         }
 
-        Util.print(output);
+        System.out.println(Arrays.toString(output));
     }
 
 }

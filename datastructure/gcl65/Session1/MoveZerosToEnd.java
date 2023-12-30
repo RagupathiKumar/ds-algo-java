@@ -1,6 +1,6 @@
 package gcl65.Session1;
 
-import gcl65.Common.Util;
+import java.util.Arrays;
 
 public class MoveZerosToEnd {
 
@@ -8,11 +8,11 @@ public class MoveZerosToEnd {
 
         int[] arr = {1, 0, 3, 2, 0};
         moveZeros2(arr);
-        Util.print(arr);
+        System.out.println(Arrays.toString(arr));
 
         arr = new int[]{0, 0, 3, 1, 0};
         moveZeros2(arr);
-        Util.print(arr);
+        System.out.println(Arrays.toString(arr));
     }
 
     // BIG O of N square

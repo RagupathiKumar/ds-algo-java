@@ -1,13 +1,13 @@
 package gcl65.Session1;
 
-import gcl65.Common.Util;
+import java.util.Arrays;
 
 public class ReverseArray {
 
     public static void main(String[] args) {
 
         int[] arr = {1, 6, 3, 2, 5};
-        Util.print(arr);
+        System.out.println(Arrays.toString(arr));
 
         int i = 0;
         int j = arr.length - 1;
@@ -20,7 +20,7 @@ public class ReverseArray {
             j--;
         }
 
-        Util.print(arr);
+        System.out.println(Arrays.toString(arr));
     }
 
 }
