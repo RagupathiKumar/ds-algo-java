@@ -5,11 +5,9 @@ import java.util.Arrays;
 public class IterativeSorts {
 
     public static void main(String[] args) {
-
-        int[] arr = {7, 5, 2, 8, 1, 4, 3};
-        bubbleSort(arr);
-        insertionSort(arr);
-        selectionSort(arr);
+        bubbleSort(new int[] {7, 5, 2, 8, 1, 4, 3});
+        insertionSort(new int[] {7, 5, 2, 8, 1, 4, 3});
+        selectionSort(new int[] {7, 5, 2, 8, 1, 4, 3});
     }
 
     private static void bubbleSort(int[] arr) {
