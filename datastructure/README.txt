@@ -18,7 +18,7 @@ Adding binary (array, string, linked list)
 Multiply strings
 Longest common prefix
 Reverse words in String (other variation)
-Iterative - Bubble, Insertion, Selection
+Iterative - Bubble, Insertion, Selection -- done
 Iterative & Recursive -- Merge & Quick
 Ship within days
 Aggressive cows (SPOJ)
