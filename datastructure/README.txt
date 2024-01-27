@@ -28,7 +28,7 @@ Painter partition (GFG)
 
 QUESTIONS --
 
-Recursion very important
+Recursion very important (heavily used in Trees, Graphs & DP)
 String with dynamic programming
 String with recursive backtracking
 Amazon asks at least 2 Tree questions
