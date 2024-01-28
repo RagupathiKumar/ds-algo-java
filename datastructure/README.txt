@@ -37,3 +37,20 @@ Deadlock -- dining philosopher problem
 How to kill a thread
 Volatile keyword
 Why need optional in Java 8
+
+Grid problems (doable in iterative and recursive) --
+flood fill algo
+max area island
+surrounded regions
+word search (type I & II)
+
+Graph & recursion --
+Rotten oranges
+Min steps by night
+
+
+FAANG
+PayPal
+Bloomberg
+Zalando
+
