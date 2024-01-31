@@ -34,6 +34,15 @@ Graph & recursion --
 Rotten oranges
 Min steps by night
 
+Merge sort questions --
+1. Count no of inversions
+2. Count no less than itself
+
+Recursion and Backtracking --
+Subsets
+Merge sort
+Permutation
+Parenthesis
 
 
 TIPS --
@@ -43,10 +52,6 @@ String with dynamic programming
 String with recursive backtracking
 Amazon asks at least 2 Tree questions
 Sum of N Natural numbers -- (N * (N + 1)) / 2
-Deadlock -- dining philosopher problem
-How to kill a thread
-Volatile keyword
-Why need optional in Java 8
 
 
 FAANG
