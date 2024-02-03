@@ -43,6 +43,13 @@ Subsets
 Merge sort
 Permutation
 Parenthesis
+Rat in a maze (GFG)
+Combination Sum
+Palindrome Partition
+Letter combinations of a phone number
+Inversion count (merge sort)
+Count of smallest number after self (merge sort)
+Integer to English word
 
 
 TIPS --
@@ -53,6 +60,9 @@ String with recursive backtracking
 Amazon asks at least 2 Tree questions
 Sum of N Natural numbers -- (N * (N + 1)) / 2
 
+distributed transaction (2PC - two phase commit)
+Internal working of Hash map (something called collision)
+Hashing
 
 FAANG
 PayPal
