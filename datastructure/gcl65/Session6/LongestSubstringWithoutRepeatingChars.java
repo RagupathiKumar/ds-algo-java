@@ -20,12 +20,12 @@ public class LongestSubstringWithoutRepeatingChars {
         while (j < n) {
             if (!set.contains(arr[j])) {
                 set.add(arr[j++]);
-            } else {
                 max = Math.max(max, set.size());
+            } else {
                 set.remove(arr[i++]);
             }
         }
 
-        return Math.max(max, set.size());
+        return max;
     }
 }
