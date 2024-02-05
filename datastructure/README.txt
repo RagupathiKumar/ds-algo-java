@@ -45,7 +45,7 @@ Permutation
 Parenthesis
 Rat in a maze (GFG)
 Combination Sum
-Palindrome Partition
+Palindrome Partitioning
 Letter combinations of a phone number
 Inversion count (merge sort)
 Count of smallest number after self (merge sort)
