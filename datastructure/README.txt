@@ -3,6 +3,8 @@ Session 2 -- Array + Matrix
 Session 3 -- Binary Search
 Session 4 -- Sorting & Searching
 Session 5 -- Recursion
+Session 6 -- Recursion & Backtracking and Set
+Session 7 -- HashMap & Asymptotic Analysis
 
 RULE --
 Easy - 5
