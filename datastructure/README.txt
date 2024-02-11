@@ -3,8 +3,18 @@ Session 2 -- Array + Matrix
 Session 3 -- Binary Search
 Session 4 -- Sorting & Searching
 Session 5 -- Recursion
-Session 6 -- Recursion & Backtracking and Set
+Session 6 -- Backtracking and Set
 Session 7 -- HashMap & Asymptotic Analysis
+Session 8 -- Linked List
+Session 9 --
+Session 10 --
+Session 11 --
+Session 12 --
+Session 13 --
+Session 14 --
+Session 15 --
+Session 16 --
+
 
 RULE --
 Easy - 5
@@ -65,6 +75,9 @@ Sum of N Natural numbers -- (N * (N + 1)) / 2
 distributed transaction (2PC - two phase commit)
 Internal working of Hash map (something called collision)
 Hashing
+
+Linked List -- Concepts like finding the middle and reversing the linked list will be used in medium to hard level problems (Chaman)
+find middle in linked list -- runner technique aka slow and fast pointer
 
 FAANG
 PayPal

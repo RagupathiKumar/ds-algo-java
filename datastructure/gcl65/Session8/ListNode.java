@@ -1,11 +1,11 @@
 package gcl65.Session8;
 
-public class Node {
+public class ListNode {
 
     int val;
-    Node next;
+    ListNode next;
 
-    public Node(int val, Node next) {
+    public ListNode(int val, ListNode next) {
         this.val = val;
         this.next = next;
     }

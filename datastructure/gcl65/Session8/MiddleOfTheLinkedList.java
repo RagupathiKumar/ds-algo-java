@@ -4,20 +4,19 @@ public class MiddleOfTheLinkedList {
 
     public static void main(String[] args) {
 
-        Node head = new Node(1, new Node(2, new Node(3, new Node(4, new Node(5, null)))));
+        ListNode head = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5, null)))));
 
-        Node node = new MiddleOfTheLinkedList().middleNodeNg(head);
+        ListNode listNode = new MiddleOfTheLinkedList().middleNodeNg(head);
 
-        while (node != null) {
-            System.out.print(node.val + " -> ");
-            node = node.next;
+        while (listNode != null) {
+            System.out.print(listNode.val + " -> ");
+            listNode = listNode.next;
         }
-        System.out.println();
     }
 
-    public Node middleNodeNg(Node head) {
-        Node slow = head;
-        Node fast = head;
+    public ListNode middleNodeNg(ListNode head) {
+        ListNode slow = head;
+        ListNode fast = head;
 
         while (fast != null && fast.next != null) {
             slow = slow.next;
@@ -27,21 +26,21 @@ public class MiddleOfTheLinkedList {
         return slow;
     }
 
-    public Node middleNode(Node head) {
+    public ListNode middleNode(ListNode head) {
 
         int cnt = 0;
-        for (Node node = head; node != null; node = node.next) {
+        for (ListNode listNode = head; listNode != null; listNode = listNode.next) {
             cnt++;
         }
 
         cnt /= 2;
-        Node node = head;
+        ListNode listNode = head;
         while (cnt > 0) {
-            node = node.next;
+            listNode = listNode.next;
             cnt--;
         }
 
-        return node;
+        return listNode;
     }
 
 }
