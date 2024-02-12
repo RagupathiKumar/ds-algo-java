@@ -78,6 +78,7 @@ Hashing
 
 Linked List -- Concepts like finding the middle and reversing the linked list will be used in medium to hard level problems (Chaman)
 find middle in linked list -- runner technique aka slow and fast pointer
+linked list cycle -- mathematics behind is Flocyd cycle detection
 
 FAANG
 PayPal
