@@ -6,14 +6,14 @@ Session 5 -- Recursion
 Session 6 -- Backtracking and Set
 Session 7 -- HashMap & Asymptotic Analysis
 Session 8 -- Linked List
-Session 9 --
-Session 10 --
-Session 11 --
-Session 12 --
-Session 13 --
-Session 14 --
-Session 15 --
-Session 16 --
+Session 9 -- Linked List & Stacks
+Session 10 -- Stack, Queue & Bit Manipulation
+Session 11 -- Tree (Binary Tree)
+Session 12 -- BST + Tree
+Session 13 -- Heap, Graph
+Session 14 -- Graph
+Session 15 -- Greedy, DP
+Session 16 -- DP
 
 
 RULE --
