@@ -10,10 +10,7 @@ public class ReorderList {
 
         new ReorderList().reorderList(head);
 
-        for (ListNode node = head; node != null; node = node.next) {
-            System.out.print(node.val + " -> ");
-        }
-        System.out.println();
+        head.print();
     }
 
 

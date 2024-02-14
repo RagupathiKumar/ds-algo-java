@@ -10,4 +10,11 @@ public class ListNode {
         this.next = next;
     }
 
+    public void print() {
+        for (ListNode node = this; node != null; node = node.next) {
+            System.out.print(node.val + " -> ");
+        }
+        System.out.print(null + "\n");
+    }
+
 }
