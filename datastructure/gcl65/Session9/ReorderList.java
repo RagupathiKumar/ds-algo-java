@@ -19,7 +19,7 @@ public class ReorderList {
 
     public void reorderList(ListNode head) {
 
-        if (head == null || head.next == null || head.next.next == null) {
+        if (head == null) {
             return;
         }
 
@@ -33,13 +33,15 @@ public class ReorderList {
     }
 
     private ListNode mid(ListNode head) {
+        ListNode prev = null;
         ListNode slow = head;
         ListNode fast = head;
         while (fast != null && fast.next != null) {
+            prev = slow;
             slow = slow.next;
             fast = fast.next.next;
         }
-        return slow;
+        return prev;
     }
 
     private ListNode reverse(ListNode head) {
