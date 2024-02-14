@@ -33,15 +33,13 @@ public class ReorderList {
     }
 
     private ListNode mid(ListNode head) {
-        ListNode prev = null;
         ListNode slow = head;
         ListNode fast = head;
         while (fast != null && fast.next != null) {
-            prev = slow;
             slow = slow.next;
             fast = fast.next.next;
         }
-        return prev;
+        return slow;
     }
 
     private ListNode reverse(ListNode head) {
