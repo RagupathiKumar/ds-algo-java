@@ -24,6 +24,7 @@ Hard - 5
 
 QUESTIONS --
 
+LRU Cache problem (this includes hash map and doubly linked list) -- very popular interview ques
 Integer to Roman
 Adding binary (array, string, linked list)
 Multiply strings
