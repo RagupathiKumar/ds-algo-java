@@ -64,6 +64,11 @@ Inversion count (merge sort)
 Count of smallest number after self (merge sort)
 Integer to English word
 
+Stack --
+Daily Temperature
+Stock span
+next greater element
+next smaller element
 
 TIPS --
 
