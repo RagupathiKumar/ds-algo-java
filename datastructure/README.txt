@@ -70,6 +70,9 @@ Stock span
 next greater element
 next smaller element
 
+DP --
+Maximal Rectangle
+
 TIPS --
 
 Recursion very important (heavily used in Trees, Graphs & DP)
