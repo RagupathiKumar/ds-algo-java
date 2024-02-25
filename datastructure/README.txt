@@ -94,6 +94,8 @@ Linked List -- Concepts like finding the middle and reversing the linked list wi
 find middle in linked list -- runner technique aka slow and fast pointer
 linked list cycle -- mathematics behind is Flocyd cycle detection
 
+Bit Manipulation -- << is multiplication of 2, >> is division by 2
+
 FAANG
 PayPal
 Bloomberg
