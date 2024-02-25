@@ -73,6 +73,11 @@ next smaller element
 DP --
 Maximal Rectangle
 
+Queue --
+Implement Stack using Queue (using 2 queues and 1 queue)
+    in 1 queue -- approach 1: push efficient
+                    approach 2: pop efficient
+
 TIPS --
 
 Recursion very important (heavily used in Trees, Graphs & DP)
