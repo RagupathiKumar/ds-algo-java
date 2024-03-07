@@ -1,5 +1,8 @@
 package gcl65.Session11;
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 public class MaximumDepthOfBinaryTree {
 
     public static void main(String[] args) {
@@ -15,6 +18,7 @@ public class MaximumDepthOfBinaryTree {
         root.right.right.left = new TreeNode(13);
 
         System.out.println(new MaximumDepthOfBinaryTree().maxDepth(root));
+        System.out.println(new MaximumDepthOfBinaryTree().maxDepth2(root));
     }
 
     public int maxDepth(TreeNode root) {
@@ -22,9 +26,32 @@ public class MaximumDepthOfBinaryTree {
             return 0;
         }
 
-        int leftHeight = maxDepth(root.left);
-        int rightHeight = maxDepth(root.right);
-        return 1 + (leftHeight > rightHeight ? leftHeight : rightHeight);
+        return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
     }
 
+    public int maxDepth2(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+
+        int height = 0;
+        Deque<TreeNode> q = new LinkedList<>();
+        q.push(root);
+
+        while (!q.isEmpty()) {
+            height++;
+            int n = q.size();
+            for (int i = 0; i < n; i++) {
+                TreeNode node = q.poll();
+                if (node.left != null) {
+                    q.add(node.left);
+                }
+                if (node.right != null) {
+                    q.add(node.right);
+                }
+            }
+        }
+
+        return height;
+    }
 }
