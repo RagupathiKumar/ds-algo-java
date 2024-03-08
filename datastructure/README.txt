@@ -78,6 +78,9 @@ Implement Stack using Queue (using 2 queues and 1 queue)
     in 1 queue -- approach 1: push efficient
                     approach 2: pop efficient
 
+Tree --
+Right side view, Left, Top, Bottom, Boundary Order Traversal (if all 4 is mixed)
+
 TIPS --
 
 Recursion very important (heavily used in Trees, Graphs & DP)
