@@ -80,6 +80,7 @@ Implement Stack using Queue (using 2 queues and 1 queue)
 
 Tree --
 Right side view, Left, Top, Bottom, Boundary Order Traversal (if all 4 is mixed)
+Symmetric Tree try iterative
 
 TIPS --
 
