@@ -101,6 +101,13 @@ linked list cycle -- mathematics behind is Flocyd cycle detection
 Bit Manipulation -- << is multiplication of 2, >> is division by 2
 
 Top view of Binary Tree -- level order with Horizontal distance
+Chaman -- all questions discussed in Session 11 & 12 (Tree and BST) are very important problems
+
+All Nodes Distance K in Binary Tree -- has two approaches -- recursive and iterative
+
+All Nodes Distance K in Binary Tree -- similar important questions --
+burn tree
+
 
 FAANG
 PayPal
