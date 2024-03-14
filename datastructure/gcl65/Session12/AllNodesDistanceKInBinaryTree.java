@@ -65,4 +65,63 @@ public class AllNodesDistanceKInBinaryTree {
     }
     // self implementation -- END
 
+    // Chaman's approach, Self implementation -- START
+    public List<Integer> distanceKChaman(TreeNode root, TreeNode target, int k) {
+
+        List<Integer> result = new ArrayList<>();
+        if (root == null) {
+            return result;
+        }
+
+        Map<TreeNode, TreeNode> parentMap = new HashMap<>();
+        buildParentMap(root, parentMap);
+
+        Set<TreeNode> visited = new HashSet<>();
+        Deque<TreeNode> q = new LinkedList<>();
+        q.add(target);
+
+        for (int i = 0; i < k; i++) {
+            int size = q.size();
+            for (int j = 0; j < size; j++) {
+                TreeNode node = q.poll();
+                visited.add(node);
+
+                if (node.left != null && !visited.contains(node.left)) {
+                    q.add(node.left);
+                }
+                if (node.right != null && !visited.contains(node.right)) {
+                    q.add(node.right);
+                }
+                if (parentMap.containsKey(node) && !visited.contains(parentMap.get(node))) {
+                    q.add(parentMap.get(node));
+                }
+            }
+        }
+
+        while (!q.isEmpty()) {
+            result.add(q.poll().val);
+        }
+
+        return result;
+    }
+
+    private void buildParentMap(TreeNode root, Map<TreeNode, TreeNode> parentMap) {
+        // base case
+        if (root == null) {
+            return;
+        }
+
+        // recursive case
+        if (root.left != null) {
+            parentMap.put(root.left, root);
+            buildParentMap(root.left, parentMap);
+        }
+
+        if (root.right != null) {
+            parentMap.put(root.right, root);
+            buildParentMap(root.right, parentMap);
+        }
+    }
+    // Chaman's approach, Self implementation -- END
+
 }
