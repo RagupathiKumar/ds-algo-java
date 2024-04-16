@@ -108,6 +108,12 @@ All Nodes Distance K in Binary Tree -- has two approaches -- recursive and itera
 All Nodes Distance K in Binary Tree -- similar important questions --
 burn tree
 
+Learn internal working of Heap / Priority Queue -- (Complete binary tree that follows Heap order property)
+Types - Min Heap & Max Heap
+Insert - O(logN), Delete - O(logN), top element - O(1)
+
+Complete Binary Tree -- all levels are fully filled except last level. Last level should fill from left to right.
+
 
 FAANG
 PayPal
