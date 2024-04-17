@@ -119,3 +119,6 @@ FAANG
 PayPal
 Bloomberg
 Zalando
+Deloitte (Pragadeesh)
+WayFair (Chaman)
+list 50 in Google Keep
