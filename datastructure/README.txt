@@ -114,6 +114,9 @@ Insert - O(logN), Delete - O(logN), top element - O(1)
 
 Complete Binary Tree -- all levels are fully filled except last level. Last level should fill from left to right.
 
+Kth largest -- min Heap
+Kth smallest -- max Heap
+
 
 FAANG
 PayPal
