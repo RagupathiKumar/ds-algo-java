@@ -13,18 +13,19 @@ public class MinimumCostOfRopes {
     {
         // your code here
         PriorityQueue<Long> minHeap = new PriorityQueue<>();
-        long total = 0;
-        
         for (long num : arr) {
             minHeap.add(num);
-            if (minHeap.size() > 2) {
-                long current = minHeap.poll() + minHeap.poll();
-                minHeap.add(current);
-                total += current;
-            }
         }
+
+        long cost = 0;
         
-        total += minHeap.poll() + minHeap.poll();
-        return total;
+        while (minHeap.size() > 1) {
+            long rope1 = minHeap.poll();
+            long rope2 = minHeap.poll();
+            cost += rope1 + rope2;
+            minHeap.add(rope1 + rope2);
+        }
+      
+        return cost;
     }
 }
