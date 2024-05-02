@@ -7,14 +7,10 @@ public class MinNumberOfRefuelingStops {
 
     public int minRefuelStops(int target, int startFuel, int[][] stations) {
         int dist = 0;
-        int noOfStn = 0;
+        int stops = 0;
+        int i = 0, n = stations.length;
 
-        PriorityQueue<int[]> minHeap = new PriorityQueue<>(Comparator.comparingInt(a -> a[0]));
-        PriorityQueue<int[]> maxHeap = new PriorityQueue<>((a, b) -> b[1] - a[1]);
-
-        for (int[] station : stations) {
-            minHeap.add(station);
-        }
+        PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Comparator.reverseOrder());
 
         while (dist < target && startFuel > 0){
 
@@ -28,18 +24,19 @@ public class MinNumberOfRefuelingStops {
             }
 
             // station already crossed
-            while (!minHeap.isEmpty() && minHeap.peek()[0] <= dist) {
-                maxHeap.add(minHeap.poll());
+            while (i < n && dist >= stations[i][0]) {
+                maxHeap.add(stations[i][1]);
+                i++;
             }
 
             // refuelling in station with max fuel
             if (!maxHeap.isEmpty()) {
-                startFuel = maxHeap.poll()[1];
-                noOfStn++;
+                startFuel = maxHeap.poll();
+                stops++;
             }
         }
 
-        return dist >= target ? noOfStn : -1;
+        return dist >= target ? stops : -1;
     }
 
 }
