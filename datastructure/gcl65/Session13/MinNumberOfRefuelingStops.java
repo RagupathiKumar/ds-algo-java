@@ -18,17 +18,25 @@ public class MinNumberOfRefuelingStops {
 
         while (dist < target && startFuel > 0){
 
+            // distance covered with existing fuel
             dist += startFuel;
+            startFuel = 0;
+
+            // if target is reached already
             if (dist >= target) {
                 break;
             }
 
-            while (!minHeap.isEmpty() && dist <= minHeap.peek()[0]) {
+            // station already crossed
+            while (!minHeap.isEmpty() && minHeap.peek()[0] <= dist) {
                 maxHeap.add(minHeap.poll());
             }
 
-            startFuel = maxHeap.poll()[1];
-            noOfStn++;
+            // refuelling in station with max fuel
+            if (!maxHeap.isEmpty()) {
+                startFuel = maxHeap.poll()[1];
+                noOfStn++;
+            }
         }
 
         return dist >= target ? noOfStn : -1;
