@@ -14,7 +14,7 @@ public class DetectCycleInDirectedGraph {
          * coz, below for loop states that we cannot navigate through the entire graph using DFS (which is wrong)
          * */
 
-        for (int i = 0; i < V; i++) {
+        for (int i = 0; i < V; i++) { // Chaman -- this is for graph with multiple component
             if (isCyclic(i, visited, path, adj)) {
                 return true;
             }
