@@ -47,6 +47,10 @@ Graph & recursion --
 Rotten oranges
 Min steps by night
 
+Important Graph problem for homework --
+Cycle detection in undirected graph
+Course schedule I and II (in leetcode)
+
 Merge sort questions --
 1. Count no of inversions
 2. Count no less than itself
