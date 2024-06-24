@@ -45,7 +45,8 @@ word search (type I & II)
 
 Graph & recursion --
 Rotten oranges
-Min steps by night
+Min steps by night in a chess board
+word error
 
 Important Graph problem for homework --
 Cycle detection in undirected graph
