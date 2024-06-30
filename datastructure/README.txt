@@ -122,6 +122,7 @@ Complete Binary Tree -- all levels are fully filled except last level. Last leve
 Kth largest -- min Heap
 Kth smallest -- max Heap
 
+Problem -- BUSYMAN -- spoj.com/problems/BUSYMAN/
 
 FAANG
 PayPal
