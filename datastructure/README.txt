@@ -124,6 +124,9 @@ Kth smallest -- max Heap
 
 Problem -- BUSYMAN -- spoj.com/problems/BUSYMAN/
 
+MInimum platforms -- in GFG
+Minimum no of meeting rooms -- in GFG
+
 FAANG
 PayPal
 Bloomberg
