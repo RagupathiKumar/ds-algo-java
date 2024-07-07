@@ -134,3 +134,10 @@ Zalando
 Deloitte (Pragadeesh)
 WayFair (Chaman)
 list 50 in Google Keep
+
+
+DP Coins problem --
+Coins [1,2,5,10,20,50,100,200,500,2000] - Amount 37
+[1,7,10] - 15
+[1,3,5] - 8
+[5, 1, 10, 20, 7, 100, 200] - 6

@@ -4,6 +4,7 @@ public class CoinChange {
 
     public static void main(String[] args) {
         System.out.println(new CoinChange().coinChange(new int[] {1, 2, 5, 10, 20, 50}, 37));
+        System.out.println(new CoinChange().coinChange(new int[] {1}, 0));
         System.out.println(new CoinChange().coinChange(new int[] {1, 7, 10}, 15)); // since we used Greedy approach, this result is not right
     }
 
@@ -21,5 +22,7 @@ public class CoinChange {
 
         return cnt;
     }
+
+    // TODO :: try solving it using DP TopDown and BottomUp
 
 }
