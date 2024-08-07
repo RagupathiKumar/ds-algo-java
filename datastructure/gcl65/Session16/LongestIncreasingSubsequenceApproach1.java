@@ -3,15 +3,16 @@ package gcl65.Session16;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LongestIncreasingSubsequence {
+public class LongestIncreasingSubsequenceApproach1 {
 
     public static void main(String[] args) {
-        System.out.println(new LongestIncreasingSubsequence().lengthOfLIS(new int[] {10,9,2,5,3,7,101,18})); // 4
-        System.out.println(new LongestIncreasingSubsequence().lengthOfLIS(new int[] {9,2,4,10,1,6,7,15,3})); // 5
-        System.out.println(new LongestIncreasingSubsequence().lengthOfLIS(new int[] {2,10,3,4,7})); // 4
-        System.out.println(new LongestIncreasingSubsequence().lengthOfLIS(new int[] {8,4,6,1,9,10,2,5,7,0})); // 4
-        System.out.println(new LongestIncreasingSubsequence().lengthOfLIS(new int[] {3,1,5,2,7})); // 3
-        System.out.println(new LongestIncreasingSubsequence().lengthOfLIS(new int[] {7,7,7,7,7,7,7})); // 1
+        LongestIncreasingSubsequenceApproach1 app = new LongestIncreasingSubsequenceApproach1();
+        System.out.println(app.lengthOfLIS(new int[] {10,9,2,5,3,7,101,18})); // 4
+        System.out.println(app.lengthOfLIS(new int[] {9,2,4,10,1,6,7,15,3})); // 5
+        System.out.println(app.lengthOfLIS(new int[] {2,10,3,4,7})); // 4
+        System.out.println(app.lengthOfLIS(new int[] {8,4,6,1,9,10,2,5,7,0})); // 4
+        System.out.println(app.lengthOfLIS(new int[] {3,1,5,2,7})); // 3
+        System.out.println(app.lengthOfLIS(new int[] {7,7,7,7,7,7,7})); // 1
     }
 
     // Approach 1 : Generate all subsequence

@@ -5,12 +5,13 @@ import java.util.Arrays;
 public class LongestIncreasingSubsequenceApproach2 {
 
     public static void main(String[] args) {
-        System.out.println(new LongestIncreasingSubsequenceApproach2().lengthOfLIS(new int[] {10,9,2,5,3,7,101,18})); // 4
-        System.out.println(new LongestIncreasingSubsequenceApproach2().lengthOfLIS(new int[] {9,2,4,10,1,6,7,15,3})); // 5
-        System.out.println(new LongestIncreasingSubsequenceApproach2().lengthOfLIS(new int[] {2,10,3,4,7})); // 4
-        System.out.println(new LongestIncreasingSubsequenceApproach2().lengthOfLIS(new int[] {8,4,6,1,9,10,2,5,7,0})); // 4
-        System.out.println(new LongestIncreasingSubsequenceApproach2().lengthOfLIS(new int[] {3,1,5,2,7})); // 3
-        System.out.println(new LongestIncreasingSubsequenceApproach2().lengthOfLIS(new int[] {7,7,7,7,7,7,7})); // 1
+        LongestIncreasingSubsequenceApproach2 app = new LongestIncreasingSubsequenceApproach2();
+        System.out.println(app.lengthOfLIS(new int[] {10,9,2,5,3,7,101,18})); // 4
+        System.out.println(app.lengthOfLIS(new int[] {9,2,4,10,1,6,7,15,3})); // 5
+        System.out.println(app.lengthOfLIS(new int[] {2,10,3,4,7})); // 4
+        System.out.println(app.lengthOfLIS(new int[] {8,4,6,1,9,10,2,5,7,0})); // 4
+        System.out.println(app.lengthOfLIS(new int[] {3,1,5,2,7})); // 3
+        System.out.println(app.lengthOfLIS(new int[] {7,7,7,7,7,7,7})); // 1
     }
 
     // Approach 2 : DP - Bottom Down Approach
