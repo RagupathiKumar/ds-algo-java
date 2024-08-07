@@ -141,3 +141,14 @@ Coins [1,2,5,10,20,50,100,200,500,2000] - Amount 37
 [1,7,10] - 15
 [1,3,5] - 8
 [5, 1, 10, 20, 7, 100, 200] - 6
+
+Longest Increasing Subsequence -
+1. Brute Force -
+    i) Generate All subsequence -- O(2 pow N)
+    ii) Using 2 for loops (dp - bottom down approach) -- O(N pow 2)
+    iii) Using binary search -- O(NlogN)
+
+
+Variations in Longest Increasing Subsequence -
+1. box inside a box
+2. envelope inside a envelope
