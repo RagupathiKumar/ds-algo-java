@@ -6,21 +6,21 @@ import java.util.List;
 public class LongestIncreasingSubsequence {
 
     public static void main(String[] args) {
-        System.out.println(new LongestIncreasingSubsequence().lengthOfLISApp1(new int[] {10,9,2,5,3,7,101,18})); // 4
-        System.out.println(new LongestIncreasingSubsequence().lengthOfLISApp1(new int[] {9,2,4,10,1,6,7,15,3})); // 5
-        System.out.println(new LongestIncreasingSubsequence().lengthOfLISApp1(new int[] {2,10,3,4,7})); // 4
-        System.out.println(new LongestIncreasingSubsequence().lengthOfLISApp1(new int[] {8,4,6,1,9,10,2,5,7,0})); // 4
-        System.out.println(new LongestIncreasingSubsequence().lengthOfLISApp1(new int[] {3,1,5,2,7})); // 3
-        System.out.println(new LongestIncreasingSubsequence().lengthOfLISApp1(new int[] {7,7,7,7,7,7,7})); // 1
+        System.out.println(new LongestIncreasingSubsequence().lengthOfLIS(new int[] {10,9,2,5,3,7,101,18})); // 4
+        System.out.println(new LongestIncreasingSubsequence().lengthOfLIS(new int[] {9,2,4,10,1,6,7,15,3})); // 5
+        System.out.println(new LongestIncreasingSubsequence().lengthOfLIS(new int[] {2,10,3,4,7})); // 4
+        System.out.println(new LongestIncreasingSubsequence().lengthOfLIS(new int[] {8,4,6,1,9,10,2,5,7,0})); // 4
+        System.out.println(new LongestIncreasingSubsequence().lengthOfLIS(new int[] {3,1,5,2,7})); // 3
+        System.out.println(new LongestIncreasingSubsequence().lengthOfLIS(new int[] {7,7,7,7,7,7,7})); // 1
     }
 
     // Approach 1 : Generate all subsequence
-    public int lengthOfLISApp1(int[] nums) {
+    public int lengthOfLIS(int[] nums) {
         List<Integer> list = new ArrayList<>();
-        return lengthOfLISApp1(nums, 0, list);
+        return lengthOfLIS(nums, 0, list);
     }
 
-    public int lengthOfLISApp1(int[] nums, int i, List<Integer> list) {
+    public int lengthOfLIS(int[] nums, int i, List<Integer> list) {
         // base case
         if (i >= nums.length) {
             return getLIS(list);
@@ -28,10 +28,10 @@ public class LongestIncreasingSubsequence {
 
         // recursive case
         list.add(nums[i]);
-        int longest = lengthOfLISApp1(nums, i + 1, list);
+        int longest = lengthOfLIS(nums, i + 1, list);
 
         list.remove(list.size() - 1); // backtracking
-        return Math.max(longest, lengthOfLISApp1(nums, i + 1, list));
+        return Math.max(longest, lengthOfLIS(nums, i + 1, list));
     }
 
     private int getLIS(List<Integer> list) {
