@@ -30,9 +30,10 @@ public class LongestIncreasingSubsequenceApproach1 {
         // recursive case
         list.add(nums[i]);
         int longest = lengthOfLIS(nums, i + 1, list);
-
         list.remove(list.size() - 1); // backtracking
-        return Math.max(longest, lengthOfLIS(nums, i + 1, list));
+
+        int longest2 = lengthOfLIS(nums, i + 1, list);
+        return Math.max(longest, longest2);
     }
 
     private int getLIS(List<Integer> list) {
