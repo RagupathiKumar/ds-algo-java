@@ -12,6 +12,7 @@ public class MinimumPathSum {
         };
 
         System.out.println(_this.minPathSum(grid));
+        System.out.println(_this.minPathSum2(grid));
     }
 
     // Top-Down Approach
@@ -36,6 +37,30 @@ public class MinimumPathSum {
         }
 
         return min;
+    }
+
+    // Bottom-Up Approach
+    private int minPathSum2(int[][] grid) {
+        int n = grid.length;
+        int m = grid[0].length;
+
+        // summing up 1st row
+        for (int j = 1; j < m; j++) {
+            grid[0][j] += grid[0][j - 1];
+        }
+
+        // summing up 1st column
+        for (int i = 1; i < n; i++) {
+            grid[i][0] += grid[i - 1][0];
+        }
+
+        for (int i = 1; i < n; i++) {
+            for (int j = 1; j < m; j++) {
+                grid[i][j] += Math.min(grid[i - 1][j], grid[i][j - 1]);
+            }
+        }
+
+        return grid[n - 1][m - 1];
     }
 
 }
