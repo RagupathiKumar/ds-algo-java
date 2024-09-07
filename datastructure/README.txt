@@ -24,68 +24,7 @@ Hard - 5
 
 QUESTIONS --
 
-LRU Cache problem (this includes hash map and doubly linked list) -- very popular interview ques
-Integer to Roman
-Adding binary (array, string, linked list)
-Multiply strings
-Longest common prefix
-Reverse words in String (other variation)
-Iterative - Bubble, Insertion, Selection -- done
-Iterative & Recursive -- Merge & Quick
-Ship within days
-Aggressive cows (SPOJ)
-Min page allocation in book (GFG)
-Painter partition (GFG)
 
-Grid problems (doable in iterative and recursive) --
-flood fill algo
-max area island
-surrounded regions
-word search (type I & II)
-
-Graph & recursion --
-Rotten oranges
-Min steps by night in a chess board
-word error
-
-Important Graph problem for homework --
-Cycle detection in undirected graph
-Course schedule I and II (in leetcode)
-
-Merge sort questions --
-1. Count no of inversions
-2. Count no less than itself
-
-Recursion and Backtracking --
-Subsets
-Merge sort
-Permutation
-Parenthesis
-Rat in a maze (GFG)
-Combination Sum
-Palindrome Partitioning
-Letter combinations of a phone number
-Inversion count (merge sort)
-Count of smallest number after self (merge sort)
-Integer to English word
-
-Stack --
-Daily Temperature
-Stock span
-next greater element
-next smaller element
-
-DP --
-Maximal Rectangle
-
-Queue --
-Implement Stack using Queue (using 2 queues and 1 queue)
-    in 1 queue -- approach 1: push efficient
-                    approach 2: pop efficient
-
-Tree --
-Right side view, Left, Top, Bottom, Boundary Order Traversal (if all 4 is mixed)
-Symmetric Tree try iterative
 
 TIPS --
 
@@ -108,33 +47,11 @@ Bit Manipulation -- << is multiplication of 2, >> is division by 2
 Top view of Binary Tree -- level order with Horizontal distance
 Chaman -- all questions discussed in Session 11 & 12 (Tree and BST) are very important problems
 
-All Nodes Distance K in Binary Tree -- has two approaches -- recursive and iterative
-
-All Nodes Distance K in Binary Tree -- similar important questions --
-burn tree
-
 Learn internal working of Heap / Priority Queue -- (Complete binary tree that follows Heap order property)
 Types - Min Heap & Max Heap
 Insert - O(logN), Delete - O(logN), top element - O(1)
 
 Complete Binary Tree -- all levels are fully filled except last level. Last level should fill from left to right.
-
-Kth largest -- min Heap
-Kth smallest -- max Heap
-
-Problem -- BUSYMAN -- spoj.com/problems/BUSYMAN/
-
-MInimum platforms -- in GFG
-Minimum no of meeting rooms -- in GFG
-
-FAANG
-PayPal
-Bloomberg
-Zalando
-Deloitte (Pragadeesh)
-WayFair (Chaman)
-list 50 in Google Keep
-
 
 DP Coins problem --
 Coins [1,2,5,10,20,50,100,200,500,2000] - Amount 37
@@ -147,11 +64,3 @@ Longest Increasing Subsequence -
     i) Generate All subsequence -- O(2 pow N)
     ii) Using 2 for loops (dp - bottom down approach) -- O(N pow 2)
     iii) Using binary search -- O(NlogN)
-
-
-Variations in Longest Increasing Subsequence -
-1. box inside a box
-2. envelope inside a envelope
-
-
-House Robber -- a must try problem

@@ -62,3 +62,8 @@ G = Google = http://bit.ly/3c0hBo6
 
 Tower Research capital
 App dynamic
+
+Bloomberg
+Zalando
+Deloitte (Pragadeesh)
+WayFair (Chaman)
