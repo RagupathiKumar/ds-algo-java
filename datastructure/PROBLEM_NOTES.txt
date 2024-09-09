@@ -1,0 +1,8 @@
+Session 1 (Array) -
+
+1. Missing Number               (Natural Number -- (N*(N+1))/2 )
+2. Reverse the given Array      (Two Pointer technique)
+3. Count Pairs with Given Sum   (Two Pointer technique)
+4. Move Zeros to the End        (Two Pointer technique)
+
+
