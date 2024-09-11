@@ -23,9 +23,6 @@ Hard - 5
 
 
 QUESTIONS --
-
-
-
 TIPS --
 
 Recursion very important (heavily used in Trees, Graphs & DP)
@@ -52,12 +49,6 @@ Types - Min Heap & Max Heap
 Insert - O(logN), Delete - O(logN), top element - O(1)
 
 Complete Binary Tree -- all levels are fully filled except last level. Last level should fill from left to right.
-
-DP Coins problem --
-Coins [1,2,5,10,20,50,100,200,500,2000] - Amount 37
-[1,7,10] - 15
-[1,3,5] - 8
-[5, 1, 10, 20, 7, 100, 200] - 6
 
 Longest Increasing Subsequence -
 1. Brute Force -
