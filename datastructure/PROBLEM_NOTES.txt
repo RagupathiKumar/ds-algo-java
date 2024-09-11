@@ -5,4 +5,28 @@ Session 1 (Array) -
 3. Count Pairs with Given Sum   (Two Pointer technique)
 4. Move Zeros to the End        (Two Pointer technique)
 
+int[] arr = new int[5];
+int[][] mat = new int[5][5];
+Arrays.fill(arr, Integer.MAX_VALUE);
+Sub-array (Continuous), Subsequence (Ordered but non-continuous) & Subset (Ordered, non-continuous with empty set).
 
+Session 2 (Array + Matrix) -
+Session 3 (Binary Search) -
+Session 4 (Sorting & Searching) -
+Session 5 (Recursion) -
+Session 6 (Backtracking and Set) -
+
+
+set.contains(obj) is O(1) in Time complexity
+
+
+Session 7 (HashMap & Asymptotic Analysis) -
+Session 8 (Linked List) -
+Session 9 (Linked List & Stacks) -
+Session 10 (Stack, Queue & Bit Manipulation) -
+Session 11 (Tree (Binary Tree)) -
+Session 12 (BST + Tree) -
+Session 13 (Heap, Graph) -
+Session 14 (Graph) -
+Session 15 (Greedy, DP) -
+Session 16 (DP) -
