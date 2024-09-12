@@ -2,7 +2,7 @@ package gcl65.Session15;
 
 public class GasStation {
 
-    // I wrote a solution with O(N square) time complexity (I used to for loop)
+    // I wrote a solution with O(N square) time complexity (I used two for loops)
     // Chaman gave this solution with O(N)
     public int canCompleteCircuit(int[] gas, int[] cost) {
         int n = gas.length;

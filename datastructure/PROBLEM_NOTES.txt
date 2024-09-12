@@ -29,4 +29,11 @@ Session 12 (BST + Tree) -
 Session 13 (Heap, Graph) -
 Session 14 (Graph) -
 Session 15 (Greedy, DP) -
+
+1. ActivitySelection
+2. GasStation (Kadane's algorithm)
+
+list.sort(Comparator.comparingInt(a -> a.end));
+
+
 Session 16 (DP) -
