@@ -1,12 +1,15 @@
 Session 1 (Array) -
 
-1. Missing Number               (Natural Number -- (N*(N+1))/2 )
+1. Missing Number               (Natural Number - (N*(N+1))/2 )
 2. Reverse the given Array      (Two Pointer technique)
 3. Count Pairs with Given Sum   (Two Pointer technique)
 4. Move Zeros to the End        (Two Pointer technique)
+5. Generating Sub-Arrays        (Two Pointer technique - Start & End Index)
+6. Product of array except self (Pre-calculate Left & Right Array)
 
 Arrays.fill(arr, Integer.MAX_VALUE);
-Sub-array (Continuous), Subset (Ordered but non-continuous) & Subsequence (Ordered, non-continuous with empty set).
+Sub-array (Continuous part of array), Subsequence (Ordered but non-continuous) & Subset (Ordered, non-continuous with empty set).
+
 
 Session 2 (Array + Matrix) -
 Session 3 (Binary Search) -
