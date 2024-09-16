@@ -21,6 +21,9 @@ Easy - 5
 Medium - 10
 Hard - 5
 
+Arrays.fill(arr, Integer.MAX_VALUE);
+Sub-array (Continuous part of array), Subsequence (Ordered but non-continuous) & Subset (Ordered, non-continuous with empty set).
+
 
 QUESTIONS --
 TIPS --
