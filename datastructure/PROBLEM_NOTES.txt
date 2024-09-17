@@ -11,6 +11,11 @@ Session 1 (Array) -
 9. Maximum sum of sub-array     (Kadane's algorithm)
 
 Session 2 (Array + Matrix) -
+
+10. WavePrint
+11. SpiralPrint
+12. RotateImage (Transpose & reverse rows)
+
 Session 3 (Binary Search) -
 Session 4 (Sorting & Searching) -
 Session 5 (Recursion) -
