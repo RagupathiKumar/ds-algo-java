@@ -17,6 +17,11 @@ Session 2 (Array + Matrix) -
 12. RotateImage (Transpose & reverse rows)
 
 Session 3 (Binary Search) -
+
+13. Linear Search
+14. Binary Search
+15. FirstAndLastPos
+
 Session 4 (Sorting & Searching) -
 Session 5 (Recursion) -
 Session 6 (Backtracking and Set) -

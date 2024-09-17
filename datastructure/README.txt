@@ -21,8 +21,10 @@ Easy - 5
 Medium - 10
 Hard - 5
 
+Sum of N Natural numbers -- (N * (N + 1)) / 2
 Arrays.fill(arr, Integer.MAX_VALUE);
 Sub-array (Continuous part of array), Subsequence (Ordered but non-continuous) & Subset (Ordered, non-continuous with empty set).
+Binary search: mid = (start + end) / 2  --> mid = start + (end - start) / 2
 
 
 QUESTIONS --
@@ -32,7 +34,7 @@ Recursion very important (heavily used in Trees, Graphs & DP)
 String with dynamic programming
 String with recursive backtracking
 Amazon asks at least 2 Tree questions
-Sum of N Natural numbers -- (N * (N + 1)) / 2
+
 
 distributed transaction (2PC - two phase commit)
 Internal working of Hash map (something called collision)
