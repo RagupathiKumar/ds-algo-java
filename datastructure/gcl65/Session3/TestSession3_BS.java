@@ -1,6 +1,6 @@
 package gcl65.Session3;
 
-public class TestSession3 {
+public class TestSession3_BS {
 
     public static void main(String[] args) {
 
@@ -13,6 +13,44 @@ public class TestSession3 {
         int[] arr3 = {1, 3, 4, 4, 4, 4, 8, 9, 10}; // 2 5
         findFirstAndLastPos(arr3, 4);
         findFirstAndLastPos2(arr3, 4);
+
+        // https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
+        System.out.println(shipWithinDays(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 5)); // 15
+        System.out.println(shipWithinDays(new int[] {3,2,2,4,1,4}, 3)); // 6
+        System.out.println(shipWithinDays(new int[] {1,2,3,1,1}, 4)); // 3
+    }
+
+    public static int shipWithinDays(int[] weights, int days) {
+        int minRequiredCapc = 0, maxRequiredCapc = 0;
+        for (int weight : weights) {
+            minRequiredCapc = Math.max(minRequiredCapc, weight);
+            maxRequiredCapc += weight;
+        }
+
+        while (minRequiredCapc <= maxRequiredCapc) {
+            int midCapc = (minRequiredCapc + maxRequiredCapc) / 2;
+            int calcDays = getDays(weights, midCapc);
+            if (calcDays <= days) {
+                maxRequiredCapc = midCapc - 1;
+            } else {
+                minRequiredCapc = midCapc + 1;
+            }
+        }
+
+        return minRequiredCapc;
+    }
+
+    public static int getDays(int[] weights, int capacity) {
+        int days = 1;
+        int currCapc = 0;
+        for (int weight : weights) {
+            currCapc += weight;
+            if (currCapc > capacity) {
+                days += 1;
+                currCapc = weight;
+            }
+        }
+        return days;
     }
 
     private static int linearSearch(int[] arr, int target) {
