@@ -18,6 +18,33 @@ public class TestSession3_BS {
         System.out.println(shipWithinDays(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 5)); // 15
         System.out.println(shipWithinDays(new int[] {3,2,2,4,1,4}, 3)); // 6
         System.out.println(shipWithinDays(new int[] {1,2,3,1,1}, 4)); // 3
+
+        int[] arr5 = {6, 7, 1, 2, 3, 4, 5};
+        int target = 7;
+        System.out.println(searchInRotatedArray(arr5, target));
+    }
+
+    public static int searchInRotatedArray(int[] arr, int target) {
+        int start = 0, end = arr.length - 1;
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+            if (arr[mid] == target) {
+                return mid;
+            } else if (arr[start] <= arr[mid]) { // left arr is sorted
+                if (target >= arr[start] && target < arr[mid]) {
+                    end = mid - 1;
+                } else {
+                    start = mid + 1;
+                }
+            } else { // right array is sorted
+                if (target > arr[mid] && target <= arr[end]) {
+                    start = mid + 1;
+                } else {
+                    end = mid - 1;
+                }
+            }
+        }
+        return -1;
     }
 
     public static int shipWithinDays(int[] weights, int days) {
