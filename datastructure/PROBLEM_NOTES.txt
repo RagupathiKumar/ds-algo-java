@@ -22,6 +22,8 @@ Session 3 (Binary Search) -
 14. Binary Search
 15. FirstAndLastPos
 16. ShipWithinDays
+17. SearchInRotatedSorted
+18. SearchIn2DMatrix
 
 Session 4 (Sorting & Searching) -
 Session 5 (Recursion) -

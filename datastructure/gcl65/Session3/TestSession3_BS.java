@@ -22,6 +22,34 @@ public class TestSession3_BS {
         int[] arr5 = {6, 7, 1, 2, 3, 4, 5};
         int target = 7;
         System.out.println(searchInRotatedArray(arr5, target));
+
+        int[][] arr = {
+                {1, 2, 3, 4},
+                {5, 6, 7, 8},
+                {9, 10, 11, 12},
+                {13, 14, 15, 16}
+        };
+        System.out.println(searchIn2DArray(arr, 3));
+        System.out.println(searchIn2DArray(arr, 17));
+    }
+
+    private static boolean searchIn2DArray(int[][] arr, int target) {
+        int rows = arr.length, cols = arr[0].length;
+        int start = 0, end = rows * cols - 1;
+
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+            int row = mid / rows, col = mid % cols;
+
+            if (arr[row][col] < target) {
+                start = mid + 1;
+            } else if (arr[row][col] > target) {
+                end = mid - 1;
+            } else {
+                return true;
+            }
+        }
+        return false;
     }
 
     public static int searchInRotatedArray(int[] arr, int target) {
