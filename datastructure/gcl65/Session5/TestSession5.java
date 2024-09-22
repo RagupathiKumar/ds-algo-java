@@ -1,6 +1,7 @@
 package gcl65.Session5;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class TestSession5 {
@@ -19,7 +20,57 @@ public class TestSession5 {
         System.out.println(pow(2, 5));
         System.out.println(powOptimised(2, 5));
 
-        subsets(new int[] {1, 2, 3, 4});
+        subsets(new int[]{1, 2, 3, 4});
+        System.out.println();
+
+        int[] arr = {6, 5, 1, 2, 4, 0};
+        int[] result = mergeSort(arr);
+        System.out.println(Arrays.toString(result));
+    }
+
+    private static int[] mergeSort(int[] arr) {
+        int s = 0, e = arr.length - 1;
+        return mergeSort(arr, s, e);
+    }
+
+    private static int[] mergeSort(int[] arr, int s, int e) {
+        // base case
+        if (s == e) {
+            return new int[]{arr[s]};
+        }
+
+        // recursive case
+        // divide
+        int m = s + (e - s) / 2;
+        int[] left = mergeSort(arr, s, m);
+        int[] right = mergeSort(arr, m + 1, e);
+
+        // conquer
+        return merge(left, right);
+    }
+
+    private static int[] merge(int[] left, int[] right) {
+        int l = 0, r = 0, n = left.length, m = right.length;
+        int[] temp = new int[n + m];
+        int i = 0;
+
+        while (l < n && r < m) {
+            if (left[l] < right[r]) {
+                temp[i++] = left[l++];
+            } else {
+                temp[i++] = right[r++];
+            }
+        }
+
+        while (l < n) {
+            temp[i++] = left[l++];
+        }
+
+        while (r < m) {
+            temp[i++] = right[r++];
+        }
+
+        return temp;
     }
 
     private static void subsets(int[] arr) {
@@ -65,7 +116,7 @@ public class TestSession5 {
             return 1;
         }
         // recursive case
-        return a * pow(a, b  - 1);
+        return a * pow(a, b - 1);
     }
 
     private static void printInDecSequence(int num) {

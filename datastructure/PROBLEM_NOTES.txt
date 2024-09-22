@@ -30,15 +30,14 @@ Session 4 (Sorting & Searching) -
 23. LongestPalindromicSubString (Palindrome inside-out check and consider even & odd len str) https://leetcode.com/problems/longest-palindromic-substring/
 24. BubbleSort - Iterative sort
 
-
 Session 5 (Recursion) -
 25. Factorial
 26. Fibonacci
 27. IncDecSequence
-28. Power
-29. Subsets
-MergeSort
-NumberOfIslands
+28. Power           (there is a simple optimised way as well)
+29. Subsets         (Include and Exclude with bactracking)
+30. MergeSort       (Divide and Conquer)
+31. NumberOfIslands (dfs and mark visited node as 2)
 
 
 Session 6 (Backtracking and Set) -
