@@ -26,13 +26,16 @@ Session 3 (Binary Search) -
 18. SearchIn2DMatrix
 
 Session 4 (Sorting & Searching) -
+
+19. ReverseWordsInString        https://leetcode.com/problems/reverse-words-in-a-string-iii/
+20. RomanToInteger              https://leetcode.com/problems/roman-to-integer/
+21. MergeIntervals              https://leetcode.com/problems/merge-intervals/
+ValidAnagram                    https://leetcode.com/problems/valid-anagram/
+LongestPalindromicSubString     https://leetcode.com/problems/longest-palindromic-substring/
+BubbleSort
+
 Session 5 (Recursion) -
 Session 6 (Backtracking and Set) -
-
-
-set.contains(obj) is O(1) in Time complexity
-
-
 Session 7 (HashMap & Asymptotic Analysis) -
 Session 8 (Linked List) -
 Session 9 (Linked List & Stacks) -
@@ -45,8 +48,6 @@ Session 15 (Greedy, DP) -
 
 1. ActivitySelection
 2. GasStation (Kadane's algorithm)
-
-list.sort(Comparator.comparingInt(a -> a.end));
 
 
 Session 16 (DP) -
