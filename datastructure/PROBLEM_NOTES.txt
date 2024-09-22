@@ -33,7 +33,7 @@ Session 4 (Sorting & Searching) -
 22. ValidAnagram                https://leetcode.com/problems/valid-anagram/
 23. LongestPalindromicSubString (Palindrome inside-out check and consider even & odd len str)
                                 https://leetcode.com/problems/longest-palindromic-substring/
-24. BubbleSort
+24. BubbleSort - Iterative sort
 
 Session 5 (Recursion) -
 Session 6 (Backtracking and Set) -
