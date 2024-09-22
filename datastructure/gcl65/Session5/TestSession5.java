@@ -26,6 +26,43 @@ public class TestSession5 {
         int[] arr = {6, 5, 1, 2, 4, 0};
         int[] result = mergeSort(arr);
         System.out.println(Arrays.toString(result));
+
+        int[][] mat = {
+                {1, 1, 1, 0, 0},
+                {1, 1, 0, 0, 0},
+                {0, 0, 1, 0, 1},
+                {1, 1, 0, 0, 1}
+        };
+        System.out.println(numOfIslands(mat));;
+    }
+
+    private static int numOfIslands(int[][] mat) {
+        int rows = mat.length, cols = mat[0].length;
+
+        int count = 0;
+        for (int r = 0; r < rows; r++) {
+            for (int c = 0; c < cols; c++) {
+                if (mat[r][c] == 1) {
+                    count++;
+                    dfs(mat, r, rows, c, cols);
+                }
+            }
+        }
+        return count;
+    }
+
+    private static void dfs(int[][] mat, int r, int rows, int c, int cols) {
+        // base case
+        if (r < 0 || r >= rows || c < 0 || c >= cols || mat[r][c] != 1) {
+            return;
+        }
+
+        // recursive case
+        mat[r][c] = 2;
+        dfs(mat, r, rows, c - 1, cols); // left
+        dfs(mat, r - 1, rows, c, cols); // up
+        dfs(mat, r, rows, c + 1, cols); // right
+        dfs(mat, r + 1, rows, c, cols); // down
     }
 
     private static int[] mergeSort(int[] arr) {
