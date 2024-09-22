@@ -39,7 +39,6 @@ Session 5 (Recursion) -
 30. MergeSort       (Divide and Conquer)
 31. NumberOfIslands (dfs and mark visited node as 2)
 
-
 Session 6 (Backtracking and Set) -
 Session 7 (HashMap & Asymptotic Analysis) -
 Session 8 (Linked List) -
