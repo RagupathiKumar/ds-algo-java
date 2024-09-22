@@ -20,6 +20,61 @@ public class TestSession4 {
         for (int[] a : result) {
             System.out.print(Arrays.toString(a) + ", ");
         }
+
+        System.out.println(isAnagram("anagram", "nagaram"));
+        System.out.println(isAnagram("rat", "car"));
+
+        System.out.println(longestPalindrome("forgeeksskeegfor"));;
+    }
+
+    static int start = 0;
+    static int max = Integer.MIN_VALUE;
+
+    public static void longestPalindrome(String s, int l, int r) {
+        int n = s.length();
+        while (l >= 0 && r < n && s.charAt(l) == s.charAt(r)) {
+            l--;
+            r++;
+        }
+        int len = r - l - 1;
+        if (len > max) {
+            max = len;
+            start = l + 1;
+        }
+    }
+
+    public static String longestPalindrome(String s) {
+
+        // odd len str has single mid whereas even len str has two mid
+
+        int n = s.length();
+        for (int i = 0; i < n; i++) {
+            longestPalindrome(s, i, i); // odd len str
+            longestPalindrome(s, i, i + 1); // even len str
+        }
+
+        return s.substring(start, start + max);
+    }
+
+    public static boolean isAnagram(String s, String t) {
+        if (s.length() != t.length()) {
+            return false;
+        }
+
+        int n = s.length();
+        int[] chars = new int[26];
+        for (int i = 0; i < n; i++) {
+            chars[s.charAt(i) - 'a']++;
+            chars[t.charAt(i) - 'a']--;
+        }
+
+        for (int c : chars) {
+            if (c > 0) {
+                return false;
+            }
+        }
+
+        return Arrays.stream(chars).allMatch(num -> num == 0);
     }
 
     public static String reverseWords(String s) {
