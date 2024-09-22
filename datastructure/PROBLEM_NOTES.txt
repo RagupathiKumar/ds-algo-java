@@ -1,5 +1,4 @@
 Session 1 (Array) -
-
 1. Missing Number               (Natural Number - (N*(N+1))/2 )
 2. Reverse the given Array      (Two Pointer technique)
 3. Count Pairs with Given Sum   (Two Pointer technique)
@@ -11,13 +10,11 @@ Session 1 (Array) -
 9. Maximum sum of sub-array     (Kadane's algorithm)
 
 Session 2 (Array + Matrix) -
-
 10. WavePrint
 11. SpiralPrint
 12. RotateImage (Transpose & reverse rows)
 
 Session 3 (Binary Search) -
-
 13. Linear Search
 14. Binary Search
 15. FirstAndLastPos
@@ -26,16 +23,24 @@ Session 3 (Binary Search) -
 18. SearchIn2DMatrix
 
 Session 4 (Sorting & Searching) -
-
 19. ReverseWordsInString        https://leetcode.com/problems/reverse-words-in-a-string-iii/
 20. RomanToInteger              https://leetcode.com/problems/roman-to-integer/
 21. MergeIntervals              https://leetcode.com/problems/merge-intervals/
 22. ValidAnagram                https://leetcode.com/problems/valid-anagram/
-23. LongestPalindromicSubString (Palindrome inside-out check and consider even & odd len str)
-                                https://leetcode.com/problems/longest-palindromic-substring/
+23. LongestPalindromicSubString (Palindrome inside-out check and consider even & odd len str) https://leetcode.com/problems/longest-palindromic-substring/
 24. BubbleSort - Iterative sort
 
+
 Session 5 (Recursion) -
+25. Factorial
+26. Fibonacci
+27. IncDecSequence
+28. Power
+29. Subsets
+MergeSort
+NumberOfIslands
+
+
 Session 6 (Backtracking and Set) -
 Session 7 (HashMap & Asymptotic Analysis) -
 Session 8 (Linked List) -
