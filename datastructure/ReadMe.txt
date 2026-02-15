@@ -1,27 +1,18 @@
-Session 1 -- Array
-Session 2 -- Array + Matrix
-Session 3 -- Binary Search
-Session 4 -- Sorting & Searching
-Session 5 -- Recursion
-Session 6 -- Backtracking and Set
-Session 7 -- HashMap & Asymptotic Analysis
-Session 8 -- Linked List
-Session 9 -- Linked List & Stacks
-Session 10 -- Stack, Queue & Bit Manipulation
-Session 11 -- Tree (Binary Tree)
-Session 12 -- BST + Tree
-Session 13 -- Heap, Graph
-Session 14 -- Graph
-Session 15 -- Greedy, DP
-Session 16 -- DP
-
-
 RULE --
 Easy - 5
 Medium - 10
 Hard - 5
 
+Chaman's advice --
+Be consistent, most people don't stay consistent
+when applying for a specific company, a week before go through the questions asked previously.
+
+QUESTIONS & TIPS --
+
 Sum of N Natural numbers -- (N * (N + 1)) / 2
+When you see a sorted array problem, always think whether BS or two pointer technique can be used.
+
+
 Arrays.fill(arr, Integer.MAX_VALUE);
 Sub-array (Continuous part of array), Subsequence (Ordered but non-continuous) & Subset (Ordered, non-continuous with empty set).
 Binary search: mid = (start + end) / 2  --> mid = start + (end - start) / 2
@@ -29,13 +20,6 @@ Hashset contains(obj) is O(1) in Time complexity
 list.sort(Comparator.comparingInt(a -> a.end));
 List<Integer> list = Arrays.stream(arr).boxed().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
 Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
-
-QUESTIONS --
-TIPS --
-
-Chaman -
-Be consistent, most people don't stay consistent
-when applying for a specific company, a week before go through the questions asked previously.
 
 Recursion very important (heavily used in Trees, Graphs & DP)
 String with dynamic programming
@@ -50,12 +34,11 @@ Linked List -- Concepts like finding the middle and reversing the linked list wi
 find middle in linked list -- runner technique aka slow and fast pointer
 linked list cycle -- mathematics behind is Flocyd cycle detection
 LRU cache problem (includes Hashmap and doubly linkedlist) - very popular interview question
-When you see a sorted array problem, always think whether BS or two pointer tech can be used.
+
 For Tree problems, first think which traversal suits (Pre, In, Post, Level or Level by level order).
 Remember a queue with forloop for Tree level by level order traversal.
 Chaman once had a Bar raiser interview round in Amazon.
 Witch - Microsoft asked only medium level questions (Chaman denied, they can ask medium to hard levels too).
-
 
 Bit Manipulation -- << is multiplication of 2, >> is division by 2
 
@@ -78,3 +61,8 @@ Longest Increasing Subsequence -
     i) Generate All subsequence -- O(2 pow N)
     ii) Using 2 for loops (dp - bottom down approach) -- O(N pow 2)
     iii) Using binary search -- O(NlogN)
+
+Java Memory Management:
+ • JVM Architecture
+ • Garbage Collection
+ • Heap & Stack Memory
