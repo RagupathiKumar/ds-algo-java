@@ -1,13 +1,10 @@
-RULE --
-Easy - 5
-Medium - 10
-Hard - 5
+RULE -- Easy - 5, Medium - 10, Hard - 5
 
-Chaman's advice --
+CHAMAN'S ADVICE --
 Be consistent, most people don't stay consistent
 when applying for a specific company, a week before go through the questions asked previously.
 
-QUESTIONS & TIPS --
+TIPS --
 
 Sum of N Natural numbers -- (N * (N + 1)) / 2
 When you see a sorted array problem, always think whether BS or two pointer technique can be used.
