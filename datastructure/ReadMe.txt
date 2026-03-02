@@ -8,10 +8,13 @@ TIPS --
 
 Sum of N Natural numbers -- (N * (N + 1)) / 2
 When you see a sorted array problem, always think whether BS or two pointer technique can be used.
+Sub-array (Continuous part of array), Subsequence (Ordered but non-continuous) & Subset (Ordered, non-continuous with empty set).
+
+
+
 
 
 Arrays.fill(arr, Integer.MAX_VALUE);
-Sub-array (Continuous part of array), Subsequence (Ordered but non-continuous) & Subset (Ordered, non-continuous with empty set).
 Binary search: mid = (start + end) / 2  --> mid = start + (end - start) / 2
 Hashset contains(obj) is O(1) in Time complexity
 list.sort(Comparator.comparingInt(a -> a.end));
@@ -63,3 +66,10 @@ Java Memory Management:
  • JVM Architecture
  • Garbage Collection
  • Heap & Stack Memory
+
+int overflow -
+if (product > Integer.MAX_VALUE || product < Integer.MIN_VALUE) {
+ throw new ArithmeticException("Integer overflow");
+}
+result[i] = Math.multiplyExact(left[i], right[i]);
+BigInteger[] left = new BigInteger[n];
