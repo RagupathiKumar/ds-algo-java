@@ -7,9 +7,12 @@ Session 1 (Array) -
 6. Generating Sub-Arrays        (Two Pointer technique)
 
 Session 2 (Array + Matrix) -
-9. Maximum sum of sub-array     (Kadane's algorithm)
-7. TrappingRainWater            (Pre-calculate Left & Right Array)
-8. MaxProductOf3Numbers         (Max1, Max2, Max3, Min1, Min2)
+7. Maximum sum of sub-array     (Kadane's algorithm)
+8. TrappingRainWater            (Pre-calculate Left & Right Array)
+9. MaxProductOf3Numbers         (Max1, Max2, Max3, Min1, Min2)
+
+--------------- ARRAYS - END ---------------------------------------------------------------------------
+
 10. WavePrint
 11. SpiralPrint
 12. RotateImage (Transpose & reverse rows)
@@ -68,6 +71,7 @@ Session 16 (DP) -
 
 ----- Chaman recommended -----
 
+Homework - TrappingRainWater - using two pointer
 generate subarray - using hashmap, hashset and DP -- these are optimized solution that 3 for loops solution
 Recursion and Backtracking --
 Subsets
