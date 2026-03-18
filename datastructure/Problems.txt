@@ -11,19 +11,23 @@ Session 2 (Array + Matrix) -
 8. TrappingRainWater            (Pre-calculate Left & Right Array)
 9. MaxProductOf3Numbers         (Max1, Max2, Max3, Min1, Min2)
 
---------------- ARRAYS - END ---------------------------------------------------------------------------
+--------------- ARRAYS - END ---------------
 
 10. WavePrint
 11. SpiralPrint
 12. RotateImage (Transpose & reverse rows)
 
+--------------- 2D ARRAYS - END ---------------
+
 Session 3 (Binary Search) -
 13. Linear Search
 14. Binary Search
 15. FirstAndLastPos
-16. ShipWithinDays
+16. SearchIn2DMatrix
 17. SearchInRotatedSorted
-18. SearchIn2DMatrix
+18. ShipWithinDays
+
+---------------- Binary Search - END -----------
 
 Session 4 (Sorting & Searching) -
 19. ReverseWordsInString        https://leetcode.com/problems/reverse-words-in-a-string-iii/
@@ -85,6 +89,10 @@ Letter combinations of a phone number
 Inversion count (merge sort)
 Count of smallest number after self (merge sort)
 Integer to English word
+aggressive cows spoj
+min page allocation GFG
+painter partition GFG
+
 
 LRU Cache problem (this includes hash map and doubly linked list) -- very popular interview ques
 Integer to Roman

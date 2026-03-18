@@ -9,13 +9,13 @@ TIPS --
 Sum of N Natural numbers -- (N * (N + 1)) / 2
 When you see a sorted array problem, always think whether BS or two pointer technique can be used.
 Sub-array (Continuous part of array), Subsequence (Ordered but non-continuous) & Subset (Ordered, non-continuous with empty set).
-
-
-
-
+Binary search: mid = (start + end) / 2  --> mid = start + (end - start) / 2
+BODMAS is a rule used in mathematics to decide the order of operations when solving expressions with multiple operations.
+In Java, the int data type is a 32-bit signed integer. -2,147,483,648 to 2,147,483,647
+BS on 2D Array -- row = mid / n, col = mid % n
 
 Arrays.fill(arr, Integer.MAX_VALUE);
-Binary search: mid = (start + end) / 2  --> mid = start + (end - start) / 2
+
 Hashset contains(obj) is O(1) in Time complexity
 list.sort(Comparator.comparingInt(a -> a.end));
 List<Integer> list = Arrays.stream(arr).boxed().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
