@@ -92,4 +92,61 @@ public class TestLeet {
         }
     }
 
+    public boolean isPalindrome(String s) {
+        int i = 0, j = s.length() - 1;
+        while (i < j) {
+            if (!Character.isLetterOrDigit(s.charAt(i))) {
+                i++;
+            } else if (!Character.isLetterOrDigit(s.charAt(j))) {
+                j--;
+            } else if (Character.toLowerCase(s.charAt(i)) == Character.toLowerCase(s.charAt(j))) {
+                i++;
+                j--;
+            } else {
+                break;
+            }
+        }
+        return i >= j;
+    }
+
+    public boolean isHappy(int n) {
+        Set<Integer> sums = new HashSet<>();
+        while (n != 1) {
+            if (sums.contains(n)) {
+                return false;
+            }
+            sums.add(n);
+            n = squareSum(n);
+        }
+        return true;
+    }
+
+    public boolean isHappyNg(int n) {
+        int slow = n, fast = n;
+        do {
+            slow = squareSum(slow);
+            fast = squareSum(squareSum(fast));
+        } while (slow != fast);
+        return slow == 1;
+    }
+
+    private int squareSum(int num) {
+        int sum = 0;
+        while (num > 0) {
+            int rem = num % 10;
+            sum += rem * rem;
+            num /= 10;
+        }
+        return sum;
+    }
+
+    public void reverseString(char[] s) {
+        int i = 0, j = s.length - 1;
+        while (i < j) {
+            char t = s[i];
+            s[i++] = s[j];
+            s[j--] = t;
+        }
+    }
+
 }
