@@ -13,6 +13,8 @@ Binary search: mid = (start + end) / 2  --> mid = start + (end - start) / 2
 BODMAS is a rule used in mathematics to decide the order of operations when solving expressions with multiple operations.
 In Java, the int data type is a 32-bit signed integer. -2,147,483,648 to 2,147,483,647
 BS on 2D Array -- row = mid / n, col = mid % n
+Character.isLetterOrDigit()
+Floyd's cycle finding algorithm or Hare-Tortoise algorithm (Also a two pointer approach)
 
 Arrays.fill(arr, Integer.MAX_VALUE);
 

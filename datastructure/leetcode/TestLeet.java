@@ -149,4 +149,142 @@ public class TestLeet {
         }
     }
 
+    public String reverseVowels(String s) {
+        String vowels = "aeiouAEIOU";
+        char[] chars = s.toCharArray();
+        int i = 0, j = chars.length - 1;
+        while (i < j) {
+            if (vowels.indexOf(chars[i]) != -1) {
+                i++;
+            } else if (vowels.indexOf(chars[j]) != -1) {
+                j--;
+            } else {
+                char t = chars[i];
+                chars[i++] = chars[j];
+                chars[j--] = t;
+            }
+        }
+        return new String(chars);
+    }
+
+    public int[] intersection(int[] nums1, int[] nums2) {
+        Map<Integer, Integer> map = new HashMap<>();
+
+        int n = nums1.length;
+        for (int i = 0; i < n; i++) {
+            map.put(nums1[i], 1);
+        }
+
+        int m = nums2.length;
+        for (int i = 0; i < m; i++) {
+            map.computeIfPresent(nums2[i], (k, v) -> 2);
+        }
+
+         return map.entrySet().stream()
+                .filter(e -> e.getValue() > 1)
+                .mapToInt(e -> e.getKey())
+                .toArray();
+    }
+
+    public int[] intersectionNg(int[] nums1, int[] nums2) {
+        Arrays.sort(nums1);
+        Arrays.sort(nums2);
+
+        int n = nums1.length, m = nums2.length;
+        int i = 0, j = 0;
+
+        Set<Integer> set = new HashSet<>();
+        while (i < n && j < m) {
+            if (nums1[i] == nums2[j]) {
+                set.add(nums1[i]);
+                i++;
+                j++;
+            } else if (nums1[i] < nums2[j]) {
+                i++;
+            } else if (nums1[i] > nums2[j]) {
+                j++;
+            }
+        }
+
+        return set.stream().mapToInt(v -> v).toArray();
+    }
+
+    public int[] intersection3(int[] nums1, int[] nums2) {
+        int[] arr = new int[1001];
+
+        int n = nums1.length;
+        for (int i = 0; i < n; i++) {
+            arr[nums1[i]] = 1;
+        }
+
+        int m = nums2.length;
+        int size = 0;
+        for (int i = 0; i < m; i++) {
+            if (arr[nums2[i]] == 1) {
+                arr[nums2[i]] = 2;
+                size++;
+            }
+        }
+
+        int[] result = new int[size];
+        for (int i = 0, j = 0; i < 1001; i++) {
+            if (arr[i] > 1) {
+                result[j] = i;
+                j++;
+            }
+        }
+
+        return result;
+    }
+
+    public int[] intersectProblem2(int[] nums1, int[] nums2) {
+        int[] freq1 = new int[1001];
+        int n = nums1.length;
+        for (int i = 0; i < n; i++) {
+            freq1[nums1[i]] += 1;
+        }
+
+        int[] freq2 = new int[1001];
+        int m = nums2.length;
+        for (int i = 0; i < m; i++) {
+            freq2[nums2[i]] += 1;
+        }
+
+        int size = 0;
+        for (int i = 0; i < 1001; i++) {
+            size += Math.min(freq1[i], freq2[i]);
+        }
+
+        int[] result = new int[size];
+        int index = 0;
+        for (int i = 0; i < 1001; i++) {
+            int freq = Math.min(freq1[i], freq2[i]);
+            for (int j = 0; j < freq; j++) {
+                result[index] = i;
+                index++;
+            }
+        }
+
+        return result;
+    }
+
+    public int[] intersectProblem2Solution2(int[] nums1, int[] nums2) {
+        int[] freq = new int[1001];
+        int n = nums1.length;
+        for (int i = 0; i < n; i++) {
+            freq[nums1[i]] += 1;
+        }
+
+        List<Integer> result = new ArrayList<>();
+        int m = nums2.length;
+        for (int i = 0; i < m; i++) {
+            if (freq[nums2[i]] > 0) {
+                result.add(nums2[i]);
+                freq[nums2[i]] -= 1;
+            }
+        }
+
+        return result.stream().mapToInt(Integer::intValue).toArray();
+    }
+
 }
