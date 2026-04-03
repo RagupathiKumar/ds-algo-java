@@ -1,31 +1,39 @@
-RULE -- Easy - 5, Medium - 10, Hard - 5
-
 CHAMAN'S ADVICE --
+Don't get frustrated, it is common.
+Solve -- Easy - 5, Medium - 10, Hard - 5
+Devil -- I sometimes feel humiliated :) even on easy problems and Frustration. Do not take a break.
 Be consistent, most people don't stay consistent
 when applying for a specific company, a week before go through the questions asked previously.
 
-TIPS --
+NOTES --
 
 Sum of N Natural numbers -- (N * (N + 1)) / 2
 When you see a sorted array problem, always think whether BS or two pointer technique can be used.
 Sub-array (Continuous part of array), Subsequence (Ordered but non-continuous) & Subset (Ordered, non-continuous with empty set).
 Binary search: mid = (start + end) / 2  --> mid = start + (end - start) / 2
 BODMAS is a rule used in mathematics to decide the order of operations when solving expressions with multiple operations.
-In Java, the int data type is a 32-bit signed integer. -2,147,483,648 to 2,147,483,647
+
+In Java, the int data type is a 32-bit signed integer. -2,147,483,648 to 2,147,483,647 (~ ±2 billion)
+In Java, the long data type is a 64-bit signed integer. -9,223,372,036,854,775,808  to 9,223,372,036,854,775,807 (~ ±9 quintillion)
+
 BS on 2D Array -- row = mid / n, col = mid % n
 Character.isLetterOrDigit()
 Floyd's cycle finding algorithm or Hare-Tortoise algorithm (Also a two pointer approach)
+Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
+ASCII -- A = 65, a = 97
+String with dynamic programming
+String with recursive backtracking
+Palindrome Substring - Odd length Palindrome (one center character) and Even Length Palindrome (two center character)
+Recursion very important (heavily used in Trees, Graphs & DP)
+
+Bubble Sort - Iterative Sort, Swap always, Traverse unsorted part of array
+Selection Sort - Iterative Sort, Swap Once, Traverse unsorted part of array
+Insertion Sort - Iterative Sort, Swap as required, Traverse sorted part of array
 
 Arrays.fill(arr, Integer.MAX_VALUE);
-
 Hashset contains(obj) is O(1) in Time complexity
 list.sort(Comparator.comparingInt(a -> a.end));
 List<Integer> list = Arrays.stream(arr).boxed().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
-Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
-
-Recursion very important (heavily used in Trees, Graphs & DP)
-String with dynamic programming
-String with recursive backtracking
 Amazon asks at least 2 Tree questions
 
 distributed transaction (2PC - two phase commit)

@@ -30,12 +30,14 @@ Session 3 (Binary Search) -
 ---------------- Binary Search - END -----------
 
 Session 4 (Sorting & Searching) -
-19. ReverseWordsInString        https://leetcode.com/problems/reverse-words-in-a-string-iii/
-20. RomanToInteger              https://leetcode.com/problems/roman-to-integer/
-21. MergeIntervals              https://leetcode.com/problems/merge-intervals/
-22. ValidAnagram                https://leetcode.com/problems/valid-anagram/
-23. LongestPalindromicSubString (Palindrome inside-out check and consider even & odd len str) https://leetcode.com/problems/longest-palindromic-substring/
-24. BubbleSort - Iterative sort
+19. BubbleSort - Iterative sort
+20. ReverseWordsInString        https://leetcode.com/problems/reverse-words-in-a-string-iii/
+21. RomanToInteger              https://leetcode.com/problems/roman-to-integer/
+22. MergeIntervals              https://leetcode.com/problems/merge-intervals/
+23. ValidAnagram                https://leetcode.com/problems/valid-anagram/
+24. LongestPalindromicSubString https://leetcode.com/problems/longest-palindromic-substring/
+
+---------------- END -----------
 
 Session 5 (Recursion) -
 25. Factorial
@@ -75,6 +77,19 @@ Session 16 (DP) -
 
 ----- Chaman recommended -----
 
+Iterative - Bubble, Insertion, Selection -- done
+Iterative & Recursive -- Merge & Quick
+Ship within days
+Aggressive cows (SPOJ)
+Min page allocation in book (GFG)
+Painter partition (GFG)
+Integer to Roman
+Adding binary (array, string, linked list)
+Multiply strings
+Longest common prefix
+Reverse words in String (other variations)
+
+
 Homework - TrappingRainWater - using two pointer
 generate subarray - using hashmap, hashset and DP -- these are optimized solution that 3 for loops solution
 Recursion and Backtracking --
@@ -95,17 +110,9 @@ painter partition GFG
 
 
 LRU Cache problem (this includes hash map and doubly linked list) -- very popular interview ques
-Integer to Roman
-Adding binary (array, string, linked list)
-Multiply strings
-Longest common prefix
-Reverse words in String (other variation)
-Iterative - Bubble, Insertion, Selection -- done
-Iterative & Recursive -- Merge & Quick
-Ship within days
-Aggressive cows (SPOJ)
-Min page allocation in book (GFG)
-Painter partition (GFG)
+
+
+
 
 Grid problems (doable in iterative and recursive) --
 flood fill algo

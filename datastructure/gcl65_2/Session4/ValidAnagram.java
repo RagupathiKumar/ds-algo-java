@@ -1,0 +1,32 @@
+package gcl65_2.Session4;
+
+//https://leetcode.com/problems/valid-anagram/
+
+class ValidAnagram {
+    public static void main(String[] args) {
+
+    }
+
+    public boolean isAnagram(String s, String t) {
+        int n = s.length(), m = t.length();
+        if (n != m) {
+            return false;
+        }
+
+        int[] freq = new int[26];
+        for (int i = 0; i < n; i++) {
+            freq[s.charAt(i) - 'a']++;
+            freq[t.charAt(i) - 'a']--;
+        }
+
+        for (int f : freq) {
+            if (f != 0) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+
+}
