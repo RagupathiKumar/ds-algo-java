@@ -4,6 +4,7 @@ Solve -- Easy - 5, Medium - 10, Hard - 5
 Devil -- I sometimes feel humiliated :) even on easy problems and Frustration. Do not take a break.
 Be consistent, most people don't stay consistent
 when applying for a specific company, a week before go through the questions asked previously.
+Ask atleast 2 questions before you give a solution.
 
 NOTES --
 

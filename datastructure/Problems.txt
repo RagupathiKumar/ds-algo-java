@@ -78,7 +78,6 @@ Session 16 (DP) -
 ----- Chaman recommended -----
 
 Iterative - Bubble, Insertion, Selection -- done
-Iterative & Recursive -- Merge & Quick
 Ship within days
 Aggressive cows (SPOJ)
 Min page allocation in book (GFG)
@@ -90,6 +89,7 @@ Longest common prefix
 Reverse words in String (other variations)
 
 
+Iterative & Recursive -- Merge & Quick
 Homework - TrappingRainWater - using two pointer
 generate subarray - using hashmap, hashset and DP -- these are optimized solution that 3 for loops solution
 Recursion and Backtracking --
