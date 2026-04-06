@@ -1,0 +1,27 @@
+Low-Level Design (LLD) Topics
+
+Topic                         Description
+OOP Fundamentals              Classes, objects, inheritance, polymorphism, encapsulation, abstraction
+SOLID Principles              Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion
+DRY, KISS, YAGNI              Don't Repeat Yourself, Keep It Simple Stupid, You Aren't Gonna Need It
+Creational Patterns           Singleton, Factory Method, Abstract Factory, Builder, Prototype
+Structural Patterns           Adapter, Decorator, Proxy, Bridge, Composite, Facade, Flyweight
+Behavioral Patterns           Strategy, Observer, Command, State, Template Method, Iterator, Mediator, Chain of Responsibility
+UML Diagrams                  Class diagrams, sequence diagrams, use case diagrams, activity diagrams
+Class Relationships           Association, aggregation, composition, inheritance, dependency
+Inheritance vs Composition    When to use each, favoring composition, interface-based design
+Interface Design              Contracts, abstraction layers, dependency injection, programming to interfaces
+Database Schema Design        Table design, normalization (1NF, 2NF, 3NF), denormalization, ER diagrams
+API Contract Design           Request/response models, DTOs, error handling, versioning, pagination
+Exception Handling            Custom exceptions, error hierarchies, graceful error recovery
+Concurrency & Threading       Thread safety, race conditions, deadlocks, synchronization primitives
+Locking Mechanisms            Mutex, semaphore, read-write locks, optimistic vs pessimistic locking
+Data Structures Selection     Choosing HashMap vs TreeMap, ArrayList vs LinkedList, when to use what
+Algorithm Complexity          Time/space complexity analysis for design decisions
+Code Organization             Package structure, layered architecture (Controller-Service-Repository), modules
+Immutability                  Immutable objects, thread safety benefits, defensive copying
+Enums & Constants             Type-safe enumerations, configuration management
+Null Safety                   Optional pattern, null object pattern, avoiding NullPointerException
+Logging Best Practices        Log levels, structured logging, what to log, sensitive data handling
+Unit Testing Design           Testable code, mocking, dependency injection for testing
+State Management              State machines, stateful vs stateless objects, state transitions

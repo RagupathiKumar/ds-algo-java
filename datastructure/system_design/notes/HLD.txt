@@ -1,0 +1,31 @@
+High-Level Design (HLD) Topics
+
+Topic                          Description
+
+Networking Fundamentals        HTTP/HTTPS, TCP/IP, UDP, DNS resolution, WebSockets, REST vs gRPC vs GraphQL
+Scalability                    Vertical scaling (bigger machines) vs horizontal scaling (more machines), stateless design
+Load Balancing                 Round robin, least connections, IP hash, consistent hashing, L4 vs L7 balancers
+Caching                        Cache-aside, write-through, write-back, write-around strategies; LRU, LFU eviction policies
+CDN (Content Delivery Network) Edge caching, geographic distribution, cache invalidation, static vs dynamic content
+Database Selection             SQL vs NoSQL trade-offs, when to use relational, document, key-value, columnar, graph databases
+Database Replication           Master-slave, master-master, synchronous vs asynchronous replication, read replicas
+Database Sharding              Horizontal partitioning, shard keys, range-based vs hash-based sharding, resharding challenges
+CAP Theorem                    Consistency, Availability, Partition tolerance trade-offs; CP vs AP systems
+Consistency Models             Strong consistency, eventual consistency, causal consistency, read-your-writes
+Message Queues                 Pub-sub model, point-to-point, Kafka, RabbitMQ, SQS; decoupling, async processing
+Event-Driven Architecture      Event sourcing, CQRS, event streaming, choreography vs orchestration
+Microservices                  Service decomposition, bounded contexts, inter-service communication, service mesh
+API Gateway                    Routing, authentication, rate limiting, request aggregation, protocol translation
+Proxies Forward                Proxy vs reverse proxy, Nginx, HAProxy, use cases
+Rate Limiting                  Token bucket, leaky bucket, sliding window algorithms; distributed rate limiting
+Blob/Object Storage            S3, Azure Blob, GCS; storing images, videos, files; pre-signed URLs
+Search Systems                 Full-text search, inverted index, Elasticsearch, Solr; relevance ranking
+Distributed Consensus          Paxos, Raft algorithms; leader election; Zookeeper, etcd
+Distributed Transactions       Two-phase commit (2PC), Saga pattern, compensating transactions
+Fault Tolerance                Redundancy, failover, replication, graceful degradation, disaster recovery
+Circuit Breaker                Preventing cascade failures, Hystrix pattern, fallback mechanisms
+Health Checks & Heartbeats     Liveness vs readiness probes, service discovery, failure detection
+Monitoring & Observability     Metrics (Prometheus), logging (ELK), tracing (Jaeger), alerting (PagerDuty)
+Security                       Authentication (OAuth, JWT, SSO), authorization (RBAC, ABAC), encryption (TLS, at-rest)
+Data Privacy                   GDPR compliance, data anonymization, PII handling, audit logs
+Estimation & Back-of-Envelope  QPS calculation, storage estimation, bandwidth, latency budgets
