@@ -4,9 +4,9 @@ Topic                         Description
 OOP Fundamentals              Classes, objects, inheritance, polymorphism, encapsulation, abstraction
 SOLID Principles              Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion
 DRY, KISS, YAGNI              Don't Repeat Yourself, Keep It Simple Stupid, You Aren't Gonna Need It
-Creational Patterns           Singleton, Factory Method, Abstract Factory, Builder, Prototype
-Structural Patterns           Adapter, Decorator, Proxy, Bridge, Composite, Facade, Flyweight
-Behavioral Patterns           Strategy, Observer, Command, State, Template Method, Iterator, Mediator, Chain of Responsibility
+Creational Patterns           Singleton, Factory Method, Abstract Factory, Builder,     Prototype
+Structural Patterns           Adapter, Decorator, Proxy,                                Bridge, Composite, Facade, Flyweight
+Behavioral Patterns           Strategy, Observer, Command,                              State, Template Method, Iterator, Mediator, Chain of Responsibility
 UML Diagrams                  Class diagrams, sequence diagrams, use case diagrams, activity diagrams
 Class Relationships           Association, aggregation, composition, inheritance, dependency
 Inheritance vs Composition    When to use each, favoring composition, interface-based design
