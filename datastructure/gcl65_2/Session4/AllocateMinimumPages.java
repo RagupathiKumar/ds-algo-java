@@ -1,4 +1,4 @@
-package geeksforgeeks;
+package gcl65_2.Session4;
 // https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1
 public class AllocateMinimumPages {
 

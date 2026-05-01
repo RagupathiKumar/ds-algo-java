@@ -1,4 +1,4 @@
-package leetcode;
+package gcl65_2.Session4;
 
 // https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
 public class CapacityToShipPackagesWithinDDays {

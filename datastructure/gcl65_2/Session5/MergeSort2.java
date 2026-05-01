@@ -1,8 +1,8 @@
-package leetcode;
+package gcl65_2.Session5;
 
 import java.util.Arrays;
 
-public class MergeSort {
+public class MergeSort2 {
 
     public static void main(String[] args) {
         int[] arr = {6, 5, 1, 2, 4, 0, 7};
