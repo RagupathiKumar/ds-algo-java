@@ -48,6 +48,9 @@ class MinCapacityToShipPackages {
                 sum = weights[i];
             }
         }
-        return days + 1;
+        if (sum > 0) {
+            days += 1;
+        }
+        return days;
     }
 }

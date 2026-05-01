@@ -6,19 +6,21 @@ Session 1 (Array) -
 5. Product of array except self (Pre-calculate Left & Right Array) -- Prefix-Suffix Product technique
 6. Generating Sub-Arrays        (Two Pointer technique)
 
-Session 2 (Array + Matrix) -
+------------------------------------------------------------------------------------------------------------------------
+Session 2 (Array) -
 7. Maximum sum of sub-array     (Kadane's algorithm)
 8. TrappingRainWater            (Pre-calculate Left & Right Array)
 9. MaxProductOf3Numbers         (Max1, Max2, Max3, Min1, Min2)
 
---------------- ARRAYS - END ---------------
+Session 2 (Matrix) -
 
 10. WavePrint
 11. SpiralPrint
 12. RotateImage (Transpose & reverse rows)
 
---------------- 2D ARRAYS - END ---------------
+Homework - TrappingRainWater - using two pointer
 
+------------------------------------------------------------------------------------------------------------------------
 Session 3 (Binary Search) -
 13. Linear Search
 14. Binary Search
@@ -27,8 +29,12 @@ Session 3 (Binary Search) -
 17. SearchInRotatedSorted
 18. ShipWithinDays
 
----------------- Binary Search - END -----------
+Ship within days
+Aggressive cows (SPOJ)
+Min page allocation in book (GFG)
+Painter partition (GFG)
 
+------------------------------------------------------------------------------------------------------------------------
 Session 4 (Sorting & Searching) -
 19. BubbleSort - Iterative sort
 20. ReverseWordsInString        https://leetcode.com/problems/reverse-words-in-a-string-iii/
@@ -37,17 +43,33 @@ Session 4 (Sorting & Searching) -
 23. ValidAnagram                https://leetcode.com/problems/valid-anagram/
 24. LongestPalindromicSubString https://leetcode.com/problems/longest-palindromic-substring/
 
----------------- END -----------
+Iterative - Bubble, Insertion, Selection
+Integer to Roman
+Add binary (array, string, linked list)
+Multiply strings
+Longest common prefix
+Reverse words in String (other variations)
 
+------------------------------------------------------------------------------------------------------------------------
 Session 5 (Recursion) -
 25. Factorial
 26. Fibonacci
 27. IncDecSequence
+30. MergeSort       (Divide and Conquer)
 28. Power           (there is a simple optimized way as well)
 29. Subsets         (Include and Exclude with backtracking)
-30. MergeSort       (Divide and Conquer)
 31. NumberOfIslands (dfs and mark visited node as 2)
 
+Recursive -- MergeSort & QuickSort
+Grid problems (doable in iterative and recursive) --
+flood fill algo
+max area island
+surrounded regions
+word search (type I & II)
+rotten oranges -- will cover later during graph
+min steps by knight -- will cover later during graph
+
+------------------------------------------------------------------------------------------------------------------------
 Session 6 (Backtracking and Set) -
 
 Permutations
@@ -59,39 +81,48 @@ LongestSubstringWithoutRepeatingChars
 LargestDivisibleSubset
 PalindromePartitioning
 
+------------------------------------------------------------------------------------------------------------------------
 Session 7 (HashMap & Asymptotic Analysis) -
+
+------------------------------------------------------------------------------------------------------------------------
 Session 8 (Linked List) -
+
+------------------------------------------------------------------------------------------------------------------------
 Session 9 (Linked List & Stacks) -
+
+------------------------------------------------------------------------------------------------------------------------
 Session 10 (Stack, Queue & Bit Manipulation) -
+
+------------------------------------------------------------------------------------------------------------------------
 Session 11 (Tree (Binary Tree)) -
+
+------------------------------------------------------------------------------------------------------------------------
 Session 12 (BST + Tree) -
+
+------------------------------------------------------------------------------------------------------------------------
 Session 13 (Heap, Graph) -
+
+------------------------------------------------------------------------------------------------------------------------
 Session 14 (Graph) -
+
+------------------------------------------------------------------------------------------------------------------------
 Session 15 (Greedy, DP) -
 
 1. ActivitySelection
 2. GasStation (Kadane's algorithm)
 
-
+------------------------------------------------------------------------------------------------------------------------
 Session 16 (DP) -
+
+
+------------------------------------------------------------------------------------------------------------------------
 
 ----- Chaman recommended -----
 
-Iterative - Bubble, Insertion, Selection -- done
-Ship within days
-Aggressive cows (SPOJ)
-Min page allocation in book (GFG)
-Painter partition (GFG)
-Integer to Roman
-Adding binary (array, string, linked list)
-Multiply strings
-Longest common prefix
-Reverse words in String (other variations)
+House Robber -- a must-try problem
 
-
-Iterative & Recursive -- Merge & Quick
-Homework - TrappingRainWater - using two pointer
 generate subarray - using hashmap, hashset and DP -- these are optimized solution that 3 for loops solution
+
 Recursion and Backtracking --
 Subsets
 Merge sort
@@ -112,13 +143,6 @@ painter partition GFG
 LRU Cache problem (this includes hash map and doubly linked list) -- very popular interview ques
 
 
-
-
-Grid problems (doable in iterative and recursive) --
-flood fill algo
-max area island
-surrounded regions
-word search (type I & II)
 
 Graph & recursion --
 Rotten oranges
@@ -181,4 +205,3 @@ Variations in Longest Increasing Subsequence -
 1. box inside a box
 2. envelope inside a envelope
 
-House Robber -- a must try problem

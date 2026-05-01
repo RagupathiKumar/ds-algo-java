@@ -4,7 +4,7 @@ Solve -- Easy - 5, Medium - 10, Hard - 5
 Devil -- I sometimes feel humiliated :) even on easy problems and Frustration. Do not take a break.
 Be consistent, most people don't stay consistent
 when applying for a specific company, a week before go through the questions asked previously.
-Ask atleast 2 questions before you give a solution.
+Ask at least 2 questions before you give a solution.
 
 NOTES --
 
@@ -19,17 +19,20 @@ In Java, the long data type is a 64-bit signed integer. -9,223,372,036,854,775,8
 
 BS on 2D Array -- row = mid / n, col = mid % n
 Character.isLetterOrDigit()
-Floyd's cycle finding algorithm or Hare-Tortoise algorithm (Also a two pointer approach)
+Floyd's cycle finding algorithm or Hare-Tortoise algorithm or Fast-Slow Pointer algorithm (Also a two pointer approach)
 Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
 ASCII -- A = 65, a = 97
 String with dynamic programming
 String with recursive backtracking
 Palindrome Substring - Odd length Palindrome (one center character) and Even Length Palindrome (two center character)
-Recursion very important (heavily used in Trees, Graphs & DP)
 
 Bubble Sort - Iterative Sort, Swap always, Traverse unsorted part of array
 Selection Sort - Iterative Sort, Swap Once, Traverse unsorted part of array
 Insertion Sort - Iterative Sort, Swap as required, Traverse sorted part of array
+
+Recursion - Solution of a problem depends on the solution of the small instances of the same problem.
+Base case and Recursive case
+Recursion very important (heavily used in Trees, Graphs & DP)
 
 Arrays.fill(arr, Integer.MAX_VALUE);
 Hashset contains(obj) is O(1) in Time complexity

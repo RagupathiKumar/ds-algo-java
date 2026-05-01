@@ -1,0 +1,27 @@
+BNY MELLON | Lead Full Stack Developer | Feb 2023 – Present
+Developed end-to-end feature for Admin Center Portal using Angular, Spring Boot, REST APIs, MongoDB, Azure Blob, and Akamai CDN, delivering key functionality for product catalogue, roles & permissions, theming, message broadcast and emulation.
+Migrated legacy services to REST APIs and streamlined GitLab CI/CD release pipeline by moving from legacy to company’s standardized template, contributing to microservices architecture and efficient deployments.
+Ensured high code quality with SonarQube, minimizing code smells and achieving 80%+ test coverage.
+Led a team of 4 on Dev Story assignments and code reviews; coordinated with PO, UX, and dependent teams for requirement gathering and design discussions.
+
+
+AMDOCS | Software Developer | Oct 2021 – Feb 2023
+Engineered an order decomposition feature to create sub-orders, validate details from other sources, and pass to downstream for fulfillment. This approach minimized order failures, reduced load on downstream systems, and improved the modularity of the order processing.
+Developed a service featuring multiple REST endpoints, facilitating interaction between an external Telecom client and the infrastructure configuration service.
+Provided necessary support in Production release preparations and Production release deployments from Development Team perspective.
+
+
+BNY MELLON | Senior Application Developer | May 2020 – Oct 2021
+Developed various Angular components to create, view, and edit trade proposals, holdings, and asset details, significantly enhancing key features of the Middle Office Users’ Portal.
+Developed a reporting service that leverages Apache Kafka to stream data into a centralized Enterprise Data Lake, providing real-time data access to various services for the External clients.
+
+
+
+AMDOCS | Software Developer | Jan 2019 – Apr 2020
+Engineered a solution for the OMS (Amdocs proprietary software) to create custom service combination orders (TV, Broadband, Landline) expanding catalog flexibility, and developed schedulable services to process 10000+ orders from Excel handling high-volume order.
+
+TECH MAHINDRA | Software Engineer | Oct 2016 – Dec 2018
+Developed a utility tool that processes a list of order IDs and generates an Excel report with consolidated order statuses, aiding migration efforts by tracking orders and managing discrepancies.
+Automated an application health monitoring script to alert the production support team of service outages, reducing downtime.
+Created utility tool to process order IDs and generate an Excel report with consolidated order statuses, aiding migration efforts by tracking orders and managing discrepancies, and automated application health monitoring script to alert production support of outages, reducing downtime.
+

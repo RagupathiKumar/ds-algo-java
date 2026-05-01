@@ -37,7 +37,7 @@ class UpiPayment implements Payment {
 // new type, no change to existing code
 
 class PaymentProcessor1 {
-    void process(Payment p) {
+    void pay(Payment p) {
         p.pay();
     }
 }
