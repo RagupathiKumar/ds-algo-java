@@ -1,8 +1,9 @@
 BNY MELLON | Lead Full Stack Developer | Feb 2023 – Present
-Developed end-to-end feature for Admin Center Portal using Angular, Spring Boot, REST APIs, MongoDB, Azure Blob, and Akamai CDN, delivering key functionality for product catalogue, roles & permissions, theming, message broadcast and emulation.
-Migrated legacy services to REST APIs and streamlined GitLab CI/CD release pipeline by moving from legacy to company’s standardized template, contributing to microservices architecture and efficient deployments.
+
+Developed full-stack features  for an Administrative Portal used Angular, Spring Boot, REST APIs, MongoDB, Azure Blob, and Akamai CDN, delivering key functionalities, played key role in opening this to client users, delivered client committed features of production-grade solutions on time.
+Streamlined GitLab CI/CD release pipeline by moving from legacy to company’s standardized template for efficient deployments.
 Ensured high code quality with SonarQube, minimizing code smells and achieving 80%+ test coverage.
-Led a team of 4 on Dev Story assignments and code reviews; coordinated with PO, UX, and dependent teams for requirement gathering and design discussions.
+Collaborated with PO, UX, and dependent teams on requirement gathering, design discussions and product grooming.
 
 
 AMDOCS | Software Developer | Oct 2021 – Feb 2023
@@ -25,3 +26,8 @@ Developed a utility tool that processes a list of order IDs and generates an Exc
 Automated an application health monitoring script to alert the production support team of service outages, reducing downtime.
 Created utility tool to process order IDs and generate an Excel report with consolidated order statuses, aiding migration efforts by tracking orders and managing discrepancies, and automated application health monitoring script to alert production support of outages, reducing downtime.
 
+
+Solved 130+ algorithmic problems on LeetCode; actively practicing data structures and algorithms (3–4 sessions/week)
+
+
+Kafka, Redis, System Design

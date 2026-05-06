@@ -34,6 +34,8 @@ Recursion - Solution of a problem depends on the solution of the small instances
 Base case and Recursive case
 Recursion very important (heavily used in Trees, Graphs & DP)
 
+Permutation - n! -- if n = 3, there are 6 permutaions (understanding Permutation is very important)
+
 Arrays.fill(arr, Integer.MAX_VALUE);
 Hashset contains(obj) is O(1) in Time complexity
 list.sort(Comparator.comparingInt(a -> a.end));

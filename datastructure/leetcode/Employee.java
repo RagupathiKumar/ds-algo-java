@@ -1,3 +1,5 @@
+package leetcode;
+
 public class Employee implements Cloneable {
 
     private static Employee emp = null;
