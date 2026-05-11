@@ -13,12 +13,11 @@ Session 2 (Array) -
 9. MaxProductOf3Numbers         (Max1, Max2, Max3, Min1, Min2)
 
 Session 2 (Matrix) -
-
 10. WavePrint
 11. SpiralPrint
 12. RotateImage (Transpose & reverse rows)
 
-Homework - TrappingRainWater - using two pointer
+Homework - TrappingRainWater - WL
 
 ------------------------------------------------------------------------------------------------------------------------
 Session 3 (Binary Search) -
@@ -44,10 +43,11 @@ Session 4 (Sorting & Searching) -
 24. LongestPalindromicSubString https://leetcode.com/problems/longest-palindromic-substring/
 
 Iterative - Bubble, Insertion, Selection
+
 Integer to Roman - WL
 Add binary (array, string, linked list) - WL
 Multiply strings - WL
-Longest common prefix
+Longest common prefix  - WL
 Reverse words in String (other variations) - WL
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -92,37 +92,100 @@ Integer to English word - WL
 
 ------------------------------------------------------------------------------------------------------------------------
 Session 7 (HashMap & Asymptotic Analysis) -
+FirstUniqueCharInString.java
+GroupAnagram.java
+SubarraySumEqualsK.java
+TestSession7.java
+TwoSum.java
 
 ------------------------------------------------------------------------------------------------------------------------
 Session 8 (Linked List) -
+IntersectionOfTwoLinkedLists.java
+LinkedListCycle.java
+ListNode.java
+MergeTwoSortedLists.java
+MiddleOfTheLinkedList.java
+RemoveNthNodeFromEnd.java
+ReverseLinkedList.java
 
 ------------------------------------------------------------------------------------------------------------------------
 Session 9 (Linked List & Stacks) -
+DailyTemperatures.java
+PalindromeLinkedList.java
+ReorderList.java
+ReverseNodesInKGroup.java
+ReversePolishNotation.java
+ValidParentheses.java
 
 ------------------------------------------------------------------------------------------------------------------------
 Session 10 (Stack, Queue & Bit Manipulation) -
+BitBasics.java
+FirstNonRepeatingCharacter.java
+ImplementStackUsingQueue.java
+LargestRectangleInHistogram.java
+ReverseBits.java
+SingleNumberIII.java
 
 ------------------------------------------------------------------------------------------------------------------------
 Session 11 (Tree (Binary Tree)) -
+BinaryTreeRightSideView.java
+InvertBinaryTree.java
+LevelOrderTraversal.java
+LowestCommonAncestor.java
+MaximumDepthOfBinaryTree.java
+SymmetricTree.java
+TestSession11.java
+TransformToSumTree.java
+TreeNode.java
+TreeTraversals.java
 
 ------------------------------------------------------------------------------------------------------------------------
 Session 12 (BST + Tree) -
+AllNodesDistanceKInBinaryTree.java
+BinaryTreeMaximumPathSum.java
+DeleteNodeInBST.java
+InsertInBST.java
+KthSmallestElementInBST.java
+Pair.java
+TestSession12.java
+TopViewOfBinaryTree.java
+TreeNode.java
+ValidateBinarySearchTree.java
 
 ------------------------------------------------------------------------------------------------------------------------
 Session 13 (Heap, Graph) -
+BFSofGraph.java
+DFSofGraph.java
+KClosestPointsToOrigin.java
+KthLargestElement.java
+MinimumCostOfRopes.java
+MinNumberOfRefuelingStops.java
 
 ------------------------------------------------------------------------------------------------------------------------
 Session 14 (Graph) -
+BipartiteGraph.java
+DetectCycleInDirectedGraph.java
+DijkstraAlgorithm.java
+RottingOranges.java
+TopologicalSort.java
 
 ------------------------------------------------------------------------------------------------------------------------
 Session 15 (Greedy, DP) -
-
 1. ActivitySelection
 2. GasStation (Kadane's algorithm)
+CoinChange.java
+FibonacciSeries.java
+JumpGame.java
 
 ------------------------------------------------------------------------------------------------------------------------
 Session 16 (DP) -
-
+LongestCommonSubsequence.java
+LongestIncreasingSubsequenceApproach1.java
+LongestIncreasingSubsequenceApproach2.java
+LongestIncreasingSubsequenceApproach3.java
+MinimumPathSum.java
+WildcardMatching.java
+ZeroOneKnapsack.java
 
 ------------------------------------------------------------------------------------------------------------------------
 
