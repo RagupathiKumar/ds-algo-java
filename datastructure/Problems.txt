@@ -44,11 +44,11 @@ Session 4 (Sorting & Searching) -
 24. LongestPalindromicSubString https://leetcode.com/problems/longest-palindromic-substring/
 
 Iterative - Bubble, Insertion, Selection
-Integer to Roman
-Add binary (array, string, linked list)
-Multiply strings
+Integer to Roman - WL
+Add binary (array, string, linked list) - WL
+Multiply strings - WL
 Longest common prefix
-Reverse words in String (other variations)
+Reverse words in String (other variations) - WL
 
 ------------------------------------------------------------------------------------------------------------------------
 Session 5 (Recursion) -
@@ -61,16 +61,16 @@ Session 5 (Recursion) -
 31. NumberOfIslands (dfs and mark visited node as 2)
 
 Recursive -- MergeSort & QuickSort
-Count num of inversions (GFG)
-Count num less than itself (LC)
+Count num of inversions (GFG) - WL
+Count num less than itself (LC) - WL
 
 Grid problems (doable in iterative and recursive) --
 flood fill algo
 max area island
 surrounded regions
 word search (type I & II)
-rotten oranges -- will cover later during graph
-min steps by knight -- will cover later during graph
+rotten oranges -- will cover later during graph - WL
+min steps by knight -- will cover later during graph - WL
 
 ------------------------------------------------------------------------------------------------------------------------
 Session 6 (Backtracking and Set) -
@@ -82,12 +82,13 @@ CombinationSum                          https://leetcode.com/problems/combinatio
 SubArrayWith0Sum                        Pre-calculate prefix https://www.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1
 LongestSubstringWithoutRepeatingChars   https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
-LargestDivisibleSubset
-Palindrome Partitioning
 Letter combinations of a phone number
-Inversion count (merge sort)
-Count of smallest number after self (merge sort)
-Integer to English word
+Palindrome Partitioning
+
+LargestDivisibleSubset - WL
+Inversion count (merge sort) - WL
+Count of smallest number after self (merge sort) - WL
+Integer to English word - WL
 
 ------------------------------------------------------------------------------------------------------------------------
 Session 7 (HashMap & Asymptotic Analysis) -

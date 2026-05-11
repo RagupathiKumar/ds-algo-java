@@ -36,6 +36,9 @@ Recursion very important (heavily used in Trees, Graphs & DP)
 
 Permutation - n! -- if n = 3, there are 6 permutaions (understanding Permutation is very important)
 
+List<Integer> result = new ArrayList<>(Collections.nCopies(nums.length, 0));
+
+
 Arrays.fill(arr, Integer.MAX_VALUE);
 Hashset contains(obj) is O(1) in Time complexity
 list.sort(Comparator.comparingInt(a -> a.end));
