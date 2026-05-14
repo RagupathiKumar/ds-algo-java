@@ -17,7 +17,7 @@ Session 2 (Matrix) -
 11. SpiralPrint
 12. RotateImage (Transpose & reverse rows)
 
-Homework - TrappingRainWater - WL
+Homework - TrappingRainWater - using Two Pointer - WL
 
 ------------------------------------------------------------------------------------------------------------------------
 Session 3 (Binary Search) -
@@ -85,18 +85,18 @@ LongestSubstringWithoutRepeatingChars   https://leetcode.com/problems/longest-su
 Letter combinations of a phone number
 Palindrome Partitioning
 
-LargestDivisibleSubset - WL
+LargestDivisibleSubset - ATT
 Inversion count (merge sort) - WL
-Count of smallest number after self (merge sort) - WL
+Count of smallest number after self (merge sort) - ATT
 Integer to English word - WL
 
 ------------------------------------------------------------------------------------------------------------------------
 Session 7 (HashMap & Asymptotic Analysis) -
 FirstUniqueCharInString.java
-GroupAnagram.java
-SubarraySumEqualsK.java
-TestSession7.java
 TwoSum.java
+GroupAnagram.java (2 different solutions - worth looking - hint:sorted key)
+SubarraySumEqualsK.java
+
 
 ------------------------------------------------------------------------------------------------------------------------
 Session 8 (Linked List) -
