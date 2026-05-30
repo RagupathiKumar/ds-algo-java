@@ -92,3 +92,7 @@ if (product > Integer.MAX_VALUE || product < Integer.MIN_VALUE) {
 }
 result[i] = Math.multiplyExact(left[i], right[i]);
 BigInteger[] left = new BigInteger[n];
+
+
+05/30 - 1,017,480
+
