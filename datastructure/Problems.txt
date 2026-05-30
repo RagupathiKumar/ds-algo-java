@@ -99,13 +99,12 @@ SubarraySumEqualsK.java
 
 ------------------------------------------------------------------------------------------------------------------------
 Session 8 (Linked List) -
-IntersectionOfTwoLinkedLists.java
-LinkedListCycle.java
-ListNode.java
-MergeTwoSortedLists.java
-MiddleOfTheLinkedList.java
-RemoveNthNodeFromEnd.java
 ReverseLinkedList.java
+MiddleOfTheLinkedList.java
+LinkedListCycle.java
+IntersectionOfTwoLinkedLists.java
+MergeTwoSortedLists.java
+RemoveNthNodeFromEnd.java -- Slow and Fast Pointer Approach (a little differently)
 
 ------------------------------------------------------------------------------------------------------------------------
 Session 9 (Linked List & Stacks) -
@@ -192,7 +191,7 @@ ZeroOneKnapsack.java
 
 House Robber -- a must-try problem
 
-generate subarray - using hashmap, hashset and DP -- these are optimized solution that 3 for loops solution
+generate subarray - using hashmap, hashset and DP -- these are optimized solution than 3 for loops solution
 
 Recursion and Backtracking --
 Subsets
