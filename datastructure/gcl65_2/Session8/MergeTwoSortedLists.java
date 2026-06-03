@@ -1,5 +1,7 @@
 package gcl65_2.Session8;
 
+import gcl65_2.common.ListNode;
+
 public class MergeTwoSortedLists {
 
     public static void main(String[] args) {
