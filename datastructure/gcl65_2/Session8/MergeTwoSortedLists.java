@@ -6,14 +6,6 @@ public class MergeTwoSortedLists {
 
     }
 
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-    }
-
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         // base case
         if (list1 == null) {

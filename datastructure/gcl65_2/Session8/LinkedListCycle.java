@@ -1,6 +1,6 @@
 package gcl65_2.Session8;
 
-import gcl65_2.Session8.ReverseLinkedList.ListNode;
+import gcl65_2.common.ListNode;
 
 // https://leetcode.com/problems/linked-list-cycle/submissions/1172448731/
 

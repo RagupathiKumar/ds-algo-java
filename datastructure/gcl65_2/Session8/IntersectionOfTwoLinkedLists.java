@@ -1,16 +1,9 @@
 package gcl65_2.Session8;
 
+import gcl65_2.common.ListNode;
+
 // https://leetcode.com/problems/intersection-of-two-linked-lists/
 public class IntersectionOfTwoLinkedLists {
-
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x, ListNode n) {
-            val = x;
-            next = n;
-        }
-    }
 
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         int len1 = getLength(headA);

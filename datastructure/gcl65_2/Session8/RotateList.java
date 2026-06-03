@@ -1,5 +1,7 @@
 package gcl65_2.Session8;
 
+import gcl65_2.common.ListNode;
+
 // https://leetcode.com/problems/rotate-list/description/
 public class RotateList {
 
@@ -14,16 +16,6 @@ public class RotateList {
         head3 = rotateRight2(head3, 2000000000);
 
         System.out.println();
-    }
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        public ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
     }
 
     static ListNode rotateRight(ListNode head, int k) {
