@@ -115,6 +115,10 @@ ReverseNodesInKGroup.java
 ReversePolishNotation.java
 ValidParentheses.java
 
+LRU Cache problem (this includes hash map and doubly linked list) -- very popular interview ques
+OnlineStockSpan
+NextGreaterElementI
+NextSmallerElement
 ------------------------------------------------------------------------------------------------------------------------
 Session 10 (Stack, Queue & Bit Manipulation) -
 BitBasics.java
@@ -210,7 +214,7 @@ min page allocation GFG
 painter partition GFG
 
 
-LRU Cache problem (this includes hash map and doubly linked list) -- very popular interview ques
+
 
 
 
