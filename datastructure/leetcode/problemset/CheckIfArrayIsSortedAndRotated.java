@@ -1,4 +1,4 @@
-package leetcode_daily_question;
+package leetcode.problemset;
 
 
 // https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/

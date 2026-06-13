@@ -1,4 +1,4 @@
-package leetcode.medium;
+package leetcode.problemset;
 
 // https://leetcode.com/problems/reverse-linked-list-ii/
 

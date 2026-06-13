@@ -1,9 +1,8 @@
-package leetcode_daily_question;
+package leetcode.problemset;
 
 // https://leetcode.com/problems/destroying-asteroids/
 
 import java.util.Arrays;
-import java.util.Collections;
 
 public class DestroyingAsteroids {
 

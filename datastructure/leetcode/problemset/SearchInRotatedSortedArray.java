@@ -1,4 +1,4 @@
-package leetcode_daily_question;
+package leetcode.problemset;
 
 public class SearchInRotatedSortedArray {
 

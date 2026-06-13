@@ -1,4 +1,4 @@
-package leetcode.easy;
+package leetcode.problemset;
 
 // https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/
 
