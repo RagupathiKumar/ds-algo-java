@@ -1,12 +1,10 @@
 package leetcode.practice1;
 
-import com.binarytree.TreeNode;
-
 import java.util.Arrays;
 
 public class TraverseLevelOrderSpiralForm {
 
-    private static com.binarytree.TreeNode<Integer> root = null;
+    private static TreeNode<Integer> root = null;
 
     public static void main(String[] args) {
 
@@ -17,7 +15,7 @@ public class TraverseLevelOrderSpiralForm {
         traverseLevelSpiralForm();
     }
 
-    static int height(com.binarytree.TreeNode<Integer> node) {
+    static int height(TreeNode<Integer> node) {
 
         if (node == null) {
             return 0;

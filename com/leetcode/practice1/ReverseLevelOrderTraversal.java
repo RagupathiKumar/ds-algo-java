@@ -1,12 +1,13 @@
 package leetcode.practice1;
 
-import com.binarytree.TreeNode;
-
-import java.util.*;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
 
 public class ReverseLevelOrderTraversal {
 
-    private static com.binarytree.TreeNode<Integer> root = null;
+    private static TreeNode<Integer> root = null;
 
     public static void main(String[] args) {
 
@@ -18,7 +19,7 @@ public class ReverseLevelOrderTraversal {
         reverseLevelOrderTraverseUsingQueueAndStack();
     }
 
-    static int height(com.binarytree.TreeNode<Integer> node) {
+    static int height(TreeNode<Integer> node) {
 
         if (node == null) {
             return 0;
@@ -45,7 +46,7 @@ public class ReverseLevelOrderTraversal {
         System.out.println("");
     }
 
-    static void traverseLevel(com.binarytree.TreeNode<Integer> node, int level) {
+    static void traverseLevel(TreeNode<Integer> node, int level) {
 
         if (level == 1) {
             System.out.print(node.val + " ");
@@ -62,14 +63,14 @@ public class ReverseLevelOrderTraversal {
             return;
         }
 
-        Queue<com.binarytree.TreeNode<Integer>> q = new LinkedList<>();
-        Stack<com.binarytree.TreeNode<Integer>> s = new Stack<>();
+        Queue<TreeNode<Integer>> q = new LinkedList<>();
+        Stack<TreeNode<Integer>> s = new Stack<>();
 
         q.offer(root);
 
         while (!q.isEmpty()) {
 
-            com.binarytree.TreeNode<Integer> node = q.poll();
+            TreeNode<Integer> node = q.poll();
 
             if (node.right != null) {
                 q.offer(node.right);

@@ -1,15 +1,13 @@
 package leetcode.practice1;
 
-import com.binarytree.TreeNode;
-
 import java.util.*;
 
 public class BinaryTreeDemo {
 
 
-    private com.binarytree.TreeNode<Integer> root = null;
+    private TreeNode<Integer> root = null;
 
-    public com.binarytree.TreeNode<Integer> getRoot() { return root; }
+    public TreeNode<Integer> getRoot() { return root; }
 
     public static void main(String[] args) {
 
@@ -43,11 +41,11 @@ public class BinaryTreeDemo {
             return;
         }
 
-        Queue<com.binarytree.TreeNode<Integer>> q = new LinkedList<>();
+        Queue<TreeNode<Integer>> q = new LinkedList<>();
         q.add(root);
 
         while (q.size() > 0) {
-            com.binarytree.TreeNode<Integer> node = q.remove();
+            TreeNode<Integer> node = q.remove();
             System.out.print(node.val + " ");
 
             if (node.left != null) {
@@ -63,14 +61,14 @@ public class BinaryTreeDemo {
     public void insert(Integer val) {
 //    public static void insert(TreeNode<Integer> root, Integer val) {
 
-        com.binarytree.TreeNode<Integer> newNode = new com.binarytree.TreeNode<>(val);
+        TreeNode<Integer> newNode = new TreeNode<>(val);
 
         if (root == null) {
             root = newNode;
             return;
         }
 
-        Queue<com.binarytree.TreeNode<Integer>> q = new LinkedList<>();
+        Queue<TreeNode<Integer>> q = new LinkedList<>();
         q.add(root);
 
         while (q.size() > 0) {
