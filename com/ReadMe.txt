@@ -38,6 +38,7 @@ Permutation - n! -- if n = 3, there are 6 permutaions (understanding Permutation
 
 List<Integer> result = new ArrayList<>(Collections.nCopies(nums.length, 0));
 
+Queue - No direct question on Queue. Usually asked with Trees (like Level Order Traversal Algo) and Graphs (BFS Algo)
 
 Arrays.fill(arr, Integer.MAX_VALUE);
 Hashset contains(obj) is O(1) in Time complexity

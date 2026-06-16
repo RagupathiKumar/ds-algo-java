@@ -189,6 +189,8 @@ MinimumPathSum.java
 WildcardMatching.java
 ZeroOneKnapsack.java
 
+DP --
+Maximal Rectangle (if you solve this, Session 10 - LargestRectangleInHistogram.java(Stack Problem) will be easy)
 ------------------------------------------------------------------------------------------------------------------------
 
 ----- Chaman recommended -----
@@ -213,11 +215,6 @@ aggressive cows spoj
 min page allocation GFG
 painter partition GFG
 
-
-
-
-
-
 Graph & recursion --
 Rotten oranges
 Min steps by night in a chess board
@@ -230,15 +227,6 @@ Course schedule I and II (in leetcode)
 Merge sort questions --
 1. Count no of inversions
 2. Count no less than itself
-
-Stack --
-Daily Temperature
-Stock span
-next greater element
-next smaller element
-
-DP --
-Maximal Rectangle
 
 Queue --
 Implement Stack using Queue (using 2 queues and 1 queue)
