@@ -97,5 +97,3 @@ BigInteger[] left = new BigInteger[n];
 
 05/30 - 1,017,480
 06/01 - 986,145
-06/03 - 981,175
-

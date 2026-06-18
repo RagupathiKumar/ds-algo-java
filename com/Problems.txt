@@ -121,10 +121,10 @@ NextGreaterElementI
 NextSmallerElement
 ------------------------------------------------------------------------------------------------------------------------
 Session 10 (Stack, Queue & Bit Manipulation) -
-BitBasics.java
-FirstNonRepeatingCharacter.java
-ImplementStackUsingQueue.java
 LargestRectangleInHistogram.java
+ImplementStackUsingQueue.java (Chaman - Amazon asked this question in first round)
+FirstNonRepeatingCharacter.java
+BitBasics.java
 ReverseBits.java
 SingleNumberIII.java
 
