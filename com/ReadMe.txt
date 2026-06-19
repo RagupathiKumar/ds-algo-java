@@ -13,10 +13,8 @@ When you see a sorted array problem, always think whether BS or two pointer tech
 Sub-array (Continuous part of array), Subsequence (Ordered but non-continuous) & Subset (Ordered, non-continuous with empty set).
 Binary search: mid = (start + end) / 2  --> mid = start + (end - start) / 2
 BODMAS is a rule used in mathematics to decide the order of operations when solving expressions with multiple operations.
-
 In Java, the int data type is a 32-bit signed integer. -2,147,483,648 to 2,147,483,647 (~ ±2 billion)
 In Java, the long data type is a 64-bit signed integer. -9,223,372,036,854,775,808  to 9,223,372,036,854,775,807 (~ ±9 quintillion)
-
 BS on 2D Array -- row = mid / n, col = mid % n
 Character.isLetterOrDigit()
 Floyd's cycle finding algorithm or Hare-Tortoise algorithm or Fast-Slow Pointer algorithm (Also a two pointer approach)
@@ -25,20 +23,25 @@ ASCII -- A = 65, a = 97
 String with dynamic programming
 String with recursive backtracking
 Palindrome Substring - Odd length Palindrome (one center character) and Even Length Palindrome (two center character)
-
 Bubble Sort - Iterative Sort, Swap always, Traverse unsorted part of array
 Selection Sort - Iterative Sort, Swap Once, Traverse unsorted part of array
 Insertion Sort - Iterative Sort, Swap as required, Traverse sorted part of array
-
 Recursion - Solution of a problem depends on the solution of the small instances of the same problem.
 Base case and Recursive case
 Recursion very important (heavily used in Trees, Graphs & DP)
-
 Permutation - n! -- if n = 3, there are 6 permutaions (understanding Permutation is very important)
-
 List<Integer> result = new ArrayList<>(Collections.nCopies(nums.length, 0));
-
 Queue - No direct question on Queue. Usually asked with Trees (like Level Order Traversal Algo) and Graphs (BFS Algo)
+Queue<Character> q = new LinkedList<>();
+
+Bit Manipulation
+Bitwise Operators -
+XOR of same value is zero otherwise value (5 ^ 2 ^ 3 ^ 5 ^ 2 is equal to 3)
+Shift Operators -
+left shift operator (<<) is multiplication of 2 -- (a * (2 pow b)) is generalized formula for (a << b)
+right shift operator (>>) is division by 2 -- (a / (2 pow b)) is generalized formula for (a >> b)
+Set ith bit, get ith bit and clear ith bit using left shift and right shift (also called mask)
+
 
 Arrays.fill(arr, Integer.MAX_VALUE);
 Hashset contains(obj) is O(1) in Time complexity
