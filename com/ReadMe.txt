@@ -41,7 +41,11 @@ Shift Operators -
 left shift operator (<<) is multiplication of 2 -- (a * (2 pow b)) is generalized formula for (a << b)
 right shift operator (>>) is division by 2 -- (a / (2 pow b)) is generalized formula for (a >> b)
 Set ith bit, get ith bit and clear ith bit using left shift and right shift (also called mask)
+lowest set bit or right most bit
+highest set bit and left most bit
 
+For Tree problems, first think which traversal suits (Pre, In, Post, Level or Level by level order).
+Practise Left View, Right View, Top View and Bottom View problems
 
 Arrays.fill(arr, Integer.MAX_VALUE);
 Hashset contains(obj) is O(1) in Time complexity
@@ -58,7 +62,6 @@ find middle in linked list -- runner technique aka slow and fast pointer
 linked list cycle -- mathematics behind is Flocyd cycle detection
 LRU cache problem (includes Hashmap and doubly linkedlist) - very popular interview question
 
-For Tree problems, first think which traversal suits (Pre, In, Post, Level or Level by level order).
 Remember a queue with forloop for Tree level by level order traversal.
 Chaman once had a Bar raiser interview round in Amazon.
 Witch - Microsoft asked only medium level questions (Chaman denied, they can ask medium to hard levels too).
@@ -103,5 +106,4 @@ BigInteger[] left = new BigInteger[n];
 
 Barclays - Pune
 BNP Paribas - Chennai
-Autodesk - Pune
 Citi - Chennai
