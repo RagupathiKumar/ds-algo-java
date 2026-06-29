@@ -47,6 +47,7 @@ highest set bit and left most bit
 For Tree problems, first think which traversal suits (Pre, In, Post, Level or Level by level order).
 Practise Left View, Right View, Top View and Bottom View problems
 
+
 Arrays.fill(arr, Integer.MAX_VALUE);
 Hashset contains(obj) is O(1) in Time complexity
 list.sort(Comparator.comparingInt(a -> a.end));

@@ -130,17 +130,28 @@ SingleNumberIII.java
 
 ------------------------------------------------------------------------------------------------------------------------
 Session 11 (Tree (Binary Tree)) -
+Tree has mostly standard questions. Tree Problems asked in interviews will be mostly related to what we have solved already during the session - Chaman
+
 BinaryTreeRightSideView.java
-InvertBinaryTree.java
+InvertBinaryTree.java (try PreOrder and PostOrder)
 LevelOrderTraversal.java
 LowestCommonAncestor.java
 MaximumDepthOfBinaryTree.java
-SymmetricTree.java
-TestSession11.java
+SymmetricTree.java (try Recursive and Iterative)
 TransformToSumTree.java
-TreeNode.java
 TreeTraversals.java
 
+PreOrderTraversal
+InOrderTraversal
+PostOrderTraversal
+LevelOrderTraversal
+LevelByLevelOrderTraversal
+Height Problem
+Left View Problem
+Right View Problem (try Recursive and Iterative)
+Top View Problem (Very Important Problem For Interview)
+Bottom View problem (Very Important Problem For Interview)
+Boundary Order Traversal (Very Important Problem For Interview)
 ------------------------------------------------------------------------------------------------------------------------
 Session 12 (BST + Tree) -
 AllNodesDistanceKInBinaryTree.java

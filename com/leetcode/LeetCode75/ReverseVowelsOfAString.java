@@ -1,4 +1,4 @@
-package leetcode.practice3;
+package leetcode.LeetCode75;
 
 public class ReverseVowelsOfAString {
 
