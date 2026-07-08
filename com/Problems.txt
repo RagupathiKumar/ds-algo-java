@@ -153,14 +153,15 @@ Bottom View problem (Very Important Problem For Interview)
 Boundary Order Traversal (Very Important Problem For Interview)
 ------------------------------------------------------------------------------------------------------------------------
 Session 12 (BST + Tree) -
-AllNodesDistanceKInBinaryTree.java
+TopViewOfBinaryTree.java
 BinaryTreeMaximumPathSum.java
+AllNodesDistanceKInBinaryTree.java (try recursive and iterative)
 DeleteNodeInBST.java
 InsertInBST.java
 KthSmallestElementInBST.java
-TopViewOfBinaryTree.java
 ValidateBinarySearchTree.java
 
+Burn Tree (similar to AllNodesDistanceKInBinaryTree)
 ------------------------------------------------------------------------------------------------------------------------
 Session 13 (Heap, Graph) -
 BFSofGraph.java

@@ -5,6 +5,7 @@ Devil -- I sometimes feel humiliated :) even on easy problems and Frustration. D
 Be consistent, most people don't stay consistent.
 when applying for a specific company, a week before go through the questions asked previously.
 Ask at least 2 questions before you give a solution.
+little challenging to come up with this approach if you have not solved similar kind of problems
 
 NOTES --
 
