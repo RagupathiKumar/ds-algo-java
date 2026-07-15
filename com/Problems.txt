@@ -148,20 +148,21 @@ LevelByLevelOrderTraversal
 Height Problem
 Left View Problem
 Right View Problem (try Recursive and Iterative)
-Top View Problem (Very Important Problem For Interview)
-Bottom View problem (Very Important Problem For Interview)
-Boundary Order Traversal (Very Important Problem For Interview)
 ------------------------------------------------------------------------------------------------------------------------
 Session 12 (BST + Tree) -
-TopViewOfBinaryTree.java
+TopViewOfBinaryTree.java (Very Important Problem For Interview)
 BinaryTreeMaximumPathSum.java
 AllNodesDistanceKInBinaryTree.java (try recursive and iterative)
-DeleteNodeInBST.java
-InsertInBST.java
-KthSmallestElementInBST.java
-ValidateBinarySearchTree.java
 
+Bottom View problem (Very Important Problem For Interview)
+Boundary Order Traversal (Very Important Problem For Interview)
 Burn Tree (similar to AllNodesDistanceKInBinaryTree)
+
+BST -
+InsertInBST.java
+DeleteNodeInBST.java
+KthSmallestElementInBST.java
+ValidateBinarySearchTree.java (something similar to the horizontal distance approach)
 ------------------------------------------------------------------------------------------------------------------------
 Session 13 (Heap, Graph) -
 BFSofGraph.java
@@ -275,3 +276,13 @@ Variations in Longest Increasing Subsequence -
 1. box inside a box
 2. envelope inside a envelope
 
+Priority Queue
+Trie
+Balanced Tree
+Symmetric Tree
+
+
+Tree -
+1. View Problems
+2. Path Problems
+3. Distance Problems

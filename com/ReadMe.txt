@@ -77,6 +77,8 @@ Learn internal working of Heap / Priority Queue -- (Complete binary tree that fo
 Types - Min Heap & Max Heap
 Insert - O(logN), Delete - O(logN), top element - O(1)
 
+Inorder of BST will give sorted order
+
 Complete Binary Tree -- all levels are fully filled except last level. Last level should fill from left to right.
 
 Greedy vs DP -
