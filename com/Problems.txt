@@ -156,13 +156,15 @@ AllNodesDistanceKInBinaryTree.java (try recursive and iterative)
 
 Bottom View problem (Very Important Problem For Interview)
 Boundary Order Traversal (Very Important Problem For Interview)
-Burn Tree (similar to AllNodesDistanceKInBinaryTree)
+Burn Tree Problem and Amount of Time for Binary Tree to Be Infected (similar to AllNodesDistanceKInBinaryTree)
 
 BST -
 InsertInBST.java
 DeleteNodeInBST.java
 KthSmallestElementInBST.java
 ValidateBinarySearchTree.java (something similar to the horizontal distance approach)
+
+RecoverBinarySearchTree
 ------------------------------------------------------------------------------------------------------------------------
 Session 13 (Heap, Graph) -
 BFSofGraph.java
