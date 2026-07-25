@@ -1,0 +1,22 @@
+package gcl65_2.Session13;
+
+import java.util.PriorityQueue;
+
+public class KthLargestElementInAnArray {
+
+    public static void main(String[] args) {
+
+    }
+
+    public int findKthLargest(int[] nums, int k) {
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+        for (int num : nums) {
+            minHeap.add(num);
+            if (minHeap.size() > k) {
+                minHeap.poll();
+            }
+        }
+        return minHeap.poll();
+    }
+
+}
