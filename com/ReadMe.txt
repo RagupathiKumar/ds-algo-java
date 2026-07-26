@@ -79,7 +79,7 @@ Insert - O(logN), Delete - O(logN), top element - O(1)
 PriorityQueue<Integer> minHeap = new PriorityQueue<>();
 PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
 PriorityQueue<Dist> maxHeap = new PriorityQueue<>((pair1, pair2) -> pair2.dist - pair1.dist);
-PriorityQueue<Dist> maxHeap = new PriorityQueue<>(Comparator.comparingInt(pair -> pair.dist));
+PriorityQueue<Dist> minHeap = new PriorityQueue<>(Comparator.comparingInt(pair -> pair.dist));
 
 Inorder of BST will give sorted order
 
