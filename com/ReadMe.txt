@@ -112,3 +112,10 @@ BigInteger[] left = new BigInteger[n];
 05/30 - 1,017,480
 06/01 - 9,86,145
 07/01 - 8,66,868
+
+
+At least 8 years of experience in Java with a strong track record in building enterprise-grade applications
+and designing microservices using Spring Boot and Spring Cloud
+Solid expertise in CI/CD practices, including automated testing and deployments using tools such as Jenkins, GitLab CI, or Azure DevOps
+A background in solving highly complex, analytical and numerical problems
+Experience of implementing programming best practice, especially around scalability, automation, virtualisation, optimisation, availability and performance
