@@ -2,36 +2,48 @@ CHAMAN'S ADVICE --
 Don't get frustrated, it is common.
 Solve -- Easy - 5, Medium - 10, Hard - 5
 Devil -- I sometimes feel humiliated :) even on easy problems and Frustration. Do not take a break.
-Be consistent, most people don't stay consistent.
+Chaman -- Be consistent, most people don't stay consistent.
 when applying for a specific company, a week before go through the questions asked previously.
 Ask at least 2 questions before you give a solution.
 little challenging to come up with this approach if you have not solved similar kind of problems
+Chaman once had a Bar raiser interview round in Amazon.
+Witch - Microsoft asked only medium level questions (Chaman denied, they can ask medium to hard levels too).
 
 NOTES --
 
 Sum of N Natural numbers -- (N * (N + 1)) / 2
-When you see a sorted array problem, always think whether BS or two pointer technique can be used.
-Sub-array (Continuous part of array), Subsequence (Ordered but non-continuous) & Subset (Ordered, non-continuous with empty set).
-Binary search: mid = (start + end) / 2  --> mid = start + (end - start) / 2
-BODMAS is a rule used in mathematics to decide the order of operations when solving expressions with multiple operations.
 In Java, the int data type is a 32-bit signed integer. -2,147,483,648 to 2,147,483,647 (~ ±2 billion)
 In Java, the long data type is a 64-bit signed integer. -9,223,372,036,854,775,808  to 9,223,372,036,854,775,807 (~ ±9 quintillion)
+
+Binary search: mid = (start + end) / 2  --> mid = start + (end - start) / 2
 BS on 2D Array -- row = mid / n, col = mid % n
-Character.isLetterOrDigit()
-Floyd's cycle finding algorithm or Hare-Tortoise algorithm or Fast-Slow Pointer algorithm (Also a two pointer approach)
+
+BODMAS is a rule used in mathematics to decide the order of operations when solving expressions with multiple operations.
+
+When you see a sorted array problem, always think whether BS or two pointer technique can be used.
+Sub-array (Continuous part of array), Subsequence (Ordered but non-continuous) & Subset (Ordered, non-continuous with empty set).
 Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
+List<Integer> result = new ArrayList<>(Collections.nCopies(nums.length, 0));
+Arrays.fill(arr, Integer.MAX_VALUE);
+Hashset contains(obj) is O(1) in Time complexity
+list.sort(Comparator.comparingInt(a -> a.end));
+List<Integer> list = Arrays.stream(arr).boxed().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
+
 ASCII -- A = 65, a = 97
+Character.isLetterOrDigit()
 String with dynamic programming
 String with recursive backtracking
 Palindrome Substring - Odd length Palindrome (one center character) and Even Length Palindrome (two center character)
+
 Bubble Sort - Iterative Sort, Swap always, Traverse unsorted part of array
 Selection Sort - Iterative Sort, Swap Once, Traverse unsorted part of array
 Insertion Sort - Iterative Sort, Swap as required, Traverse sorted part of array
+
 Recursion - Solution of a problem depends on the solution of the small instances of the same problem.
-Base case and Recursive case
+Have Base case and Recursive case in recursion method
 Recursion very important (heavily used in Trees, Graphs & DP)
 Permutation - n! -- if n = 3, there are 6 permutaions (understanding Permutation is very important)
-List<Integer> result = new ArrayList<>(Collections.nCopies(nums.length, 0));
+
 Queue - No direct question on Queue. Usually asked with Trees (like Level Order Traversal Algo) and Graphs (BFS Algo)
 Queue<Character> q = new LinkedList<>();
 
@@ -44,34 +56,23 @@ right shift operator (>>) is division by 2 -- (a / (2 pow b)) is generalized for
 Set ith bit, get ith bit and clear ith bit using left shift and right shift (also called mask)
 lowest set bit or right most bit
 highest set bit and left most bit
-
-For Tree problems, first think which traversal suits (Pre, In, Post, Level or Level by level order).
-Practise Left View, Right View, Top View and Bottom View problems
-
-
-Arrays.fill(arr, Integer.MAX_VALUE);
-Hashset contains(obj) is O(1) in Time complexity
-list.sort(Comparator.comparingInt(a -> a.end));
-List<Integer> list = Arrays.stream(arr).boxed().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
-Amazon asks at least 2 Tree questions
-
-distributed transaction (2PC - two phase commit)
-Internal working of Hash map (something called collision)
-Hashing
+Bit Manipulation -- << is multiplication of 2, >> is division by 2
 
 Linked List -- Concepts like finding the middle and reversing the linked list will be used in medium to hard level problems (Chaman)
 find middle in linked list -- runner technique aka slow and fast pointer
 linked list cycle -- mathematics behind is Flocyd cycle detection
 LRU cache problem (includes Hashmap and doubly linkedlist) - very popular interview question
+Floyd's cycle finding algorithm or Hare-Tortoise algorithm or Fast-Slow Pointer algorithm (Also a two pointer approach)
 
+
+For Tree problems, first think which traversal suits (Pre, In, Post, Level or Level by level order).
+Practice Left View, Right View, Top View and Bottom View problems
 Remember a queue with forloop for Tree level by level order traversal.
-Chaman once had a Bar raiser interview round in Amazon.
-Witch - Microsoft asked only medium level questions (Chaman denied, they can ask medium to hard levels too).
-
-Bit Manipulation -- << is multiplication of 2, >> is division by 2
-
 Top view of Binary Tree -- level order with Horizontal distance
 Chaman -- all questions discussed in Session 11 & 12 (Tree and BST) are very important problems
+Inorder of BST will give sorted order
+Complete Binary Tree -- all levels are fully filled except last level. Last level should fill from left to right.
+
 
 Learn internal working of Heap / Priority Queue -- (Complete binary tree that follows Heap order property)
 Types - Min Heap & Max Heap
@@ -81,9 +82,14 @@ PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder())
 PriorityQueue<Dist> maxHeap = new PriorityQueue<>((pair1, pair2) -> pair2.dist - pair1.dist);
 PriorityQueue<Dist> minHeap = new PriorityQueue<>(Comparator.comparingInt(pair -> pair.dist));
 
-Inorder of BST will give sorted order
+Graph -
+1. Vertices/Vertex/Node, Edges, Neighbours
+2. Types - Undirected/Directed, Cyclic/Acyclic
+3. Graph is generally represented using adjacency list
+4. Traversals - BFS and DFS (Time - O(V+E) and Space - O(V))
+5. Graph can have multiple components
+6. Chaman said any Graph question can be solved with both BFS and DFS. (I don't believe, need to check.)
 
-Complete Binary Tree -- all levels are fully filled except last level. Last level should fill from left to right.
 
 Greedy vs DP -
 Greedy makes the choice that looks best at that moment.
@@ -96,17 +102,17 @@ Longest Increasing Subsequence -
     ii) Using 2 for loops (dp - bottom down approach) -- O(N pow 2)
     iii) Using binary search -- O(NlogN)
 
+
+
 Java Memory Management:
  • JVM Architecture
  • Garbage Collection
  • Heap & Stack Memory
 
-int overflow -
-if (product > Integer.MAX_VALUE || product < Integer.MIN_VALUE) {
- throw new ArithmeticException("Integer overflow");
-}
-result[i] = Math.multiplyExact(left[i], right[i]);
-BigInteger[] left = new BigInteger[n];
+distributed transaction (2PC - two phase commit)
+Internal working of Hash map (something called collision)
+Hashing
+
 
 
 05/30 - 1,017,480
