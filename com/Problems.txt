@@ -183,16 +183,25 @@ BFSofGraph.java
 DFSofGraph.java
 ------------------------------------------------------------------------------------------------------------------------
 Session 14 (Graph) -
-BipartiteGraph.java
 DetectCycleInDirectedGraph.java
-DijkstraAlgorithm.java
-RottingOranges.java
 TopologicalSort.java
+RottingOranges.java
+BipartiteGraph.java
+DijkstraAlgorithm.java (He used min heap)
 
+
+Cycle detection in undirected graph
+Course schedule I and II (in leetcode)
+word error
+flood fill algo
+max area island
+surrounded regions
+word search (type I & II)
+min steps by knight -- will cover later during graph - WL
 ------------------------------------------------------------------------------------------------------------------------
 Session 15 (Greedy, DP) -
-1. ActivitySelection
-2. GasStation (Kadane's algorithm)
+ActivitySelection
+GasStation (Kadane's algorithm)
 CoinChange.java
 FibonacciSeries.java
 JumpGame.java
@@ -237,10 +246,6 @@ Graph & recursion --
 Rotten oranges
 Min steps by night in a chess board
 word error
-
-Important Graph problem for homework --
-Cycle detection in undirected graph
-Course schedule I and II (in leetcode)
 
 Merge sort questions --
 1. Count no of inversions

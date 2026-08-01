@@ -54,8 +54,8 @@ Shift Operators -
 left shift operator (<<) is multiplication of 2 -- (a * (2 pow b)) is generalized formula for (a << b)
 right shift operator (>>) is division by 2 -- (a / (2 pow b)) is generalized formula for (a >> b)
 Set ith bit, get ith bit and clear ith bit using left shift and right shift (also called mask)
-lowest set bit or right most bit
-highest set bit and left most bit
+the lowest set bit or right most bit
+highest set bit and left most bit.
 Bit Manipulation -- << is multiplication of 2, >> is division by 2
 
 Linked List -- Concepts like finding the middle and reversing the linked list will be used in medium to hard level problems (Chaman)
@@ -89,6 +89,8 @@ Graph -
 4. Traversals - BFS and DFS (Time - O(V+E) and Space - O(V))
 5. Graph can have multiple components
 6. Chaman said any Graph question can be solved with both BFS and DFS. (I don't believe, need to check.)
+7. whenever they ask for min time or min dist, go for BFS in Graph
+8. Bipartite Graph - Vertices in the Graph split into two sets with zero edges between the vertices on same set.
 
 
 Greedy vs DP -
@@ -102,8 +104,6 @@ Longest Increasing Subsequence -
     ii) Using 2 for loops (dp - bottom down approach) -- O(N pow 2)
     iii) Using binary search -- O(NlogN)
 
-
-
 Java Memory Management:
  • JVM Architecture
  • Garbage Collection
@@ -113,15 +113,14 @@ distributed transaction (2PC - two phase commit)
 Internal working of Hash map (something called collision)
 Hashing
 
-
-
 05/30 - 1,017,480
 06/01 - 9,86,145
 07/01 - 8,66,868
+08/01 - 719,659
 
 
 At least 8 years of experience in Java with a strong track record in building enterprise-grade applications
 and designing microservices using Spring Boot and Spring Cloud
 Solid expertise in CI/CD practices, including automated testing and deployments using tools such as Jenkins, GitLab CI, or Azure DevOps
 A background in solving highly complex, analytical and numerical problems
-Experience of implementing programming best practice, especially around scalability, automation, virtualisation, optimisation, availability and performance
+Experience of implementing programming best practice, especially around scalability, automation, virtualization, optimization, availability and performance.
