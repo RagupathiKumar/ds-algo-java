@@ -42,7 +42,7 @@ Insertion Sort - Iterative Sort, Swap as required, Traverse sorted part of array
 Recursion - Solution of a problem depends on the solution of the small instances of the same problem.
 Have Base case and Recursive case in recursion method
 Recursion very important (heavily used in Trees, Graphs & DP)
-Permutation - n! -- if n = 3, there are 6 permutaions (understanding Permutation is very important)
+Permutation - n! -- if n = 3, there are 6 permutations (understanding Permutation is very important)
 
 Queue - No direct question on Queue. Usually asked with Trees (like Level Order Traversal Algo) and Graphs (BFS Algo)
 Queue<Character> q = new LinkedList<>();
@@ -61,13 +61,13 @@ Bit Manipulation -- << is multiplication of 2, >> is division by 2
 Linked List -- Concepts like finding the middle and reversing the linked list will be used in medium to hard level problems (Chaman)
 find middle in linked list -- runner technique aka slow and fast pointer
 linked list cycle -- mathematics behind is Flocyd cycle detection
-LRU cache problem (includes Hashmap and doubly linkedlist) - very popular interview question
+LRU cache problem (includes Hashmap and doubly linked list) - very popular interview question
 Floyd's cycle finding algorithm or Hare-Tortoise algorithm or Fast-Slow Pointer algorithm (Also a two pointer approach)
 
 
 For Tree problems, first think which traversal suits (Pre, In, Post, Level or Level by level order).
 Practice Left View, Right View, Top View and Bottom View problems
-Remember a queue with forloop for Tree level by level order traversal.
+Remember a queue with for loop for Tree level by level order traversal.
 Top view of Binary Tree -- level order with Horizontal distance
 Chaman -- all questions discussed in Session 11 & 12 (Tree and BST) are very important problems
 Inorder of BST will give sorted order
@@ -79,8 +79,8 @@ Types - Min Heap & Max Heap
 Insert - O(logN), Delete - O(logN), top element - O(1)
 PriorityQueue<Integer> minHeap = new PriorityQueue<>();
 PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
-PriorityQueue<Dist> maxHeap = new PriorityQueue<>((pair1, pair2) -> pair2.dist - pair1.dist);
 PriorityQueue<Dist> minHeap = new PriorityQueue<>(Comparator.comparingInt(pair -> pair.dist));
+PriorityQueue<Dist> maxHeap = new PriorityQueue<>((pair1, pair2) -> pair2.dist - pair1.dist);
 
 Graph -
 1. Vertices/Vertex/Node, Edges, Neighbours
@@ -91,6 +91,15 @@ Graph -
 6. Chaman said any Graph question can be solved with both BFS and DFS. (I don't believe, need to check.)
 7. whenever they ask for min time or min dist, go for BFS in Graph
 8. Bipartite Graph - Vertices in the Graph split into two sets with zero edges between the vertices on same set.
+
+
+Dijkstra vs other shortest-path algorithms --
+Algorithm	        Use when
+BFS	                Unweighted graph / every edge has same cost
+Dijkstra	        Weighted graph, no negative weights
+Bellman-Ford	    Weighted graph with negative weights
+Floyd-Warshall	    Shortest paths between every pair of nodes
+A*	                Shortest path when you have a useful heuristic, commonly maps/games
 
 
 Greedy vs DP -
@@ -117,6 +126,7 @@ Hashing
 06/01 - 9,86,145
 07/01 - 8,66,868
 08/01 - 719,659
+09/01 - 700,133
 
 
 At least 8 years of experience in Java with a strong track record in building enterprise-grade applications
@@ -124,3 +134,5 @@ and designing microservices using Spring Boot and Spring Cloud
 Solid expertise in CI/CD practices, including automated testing and deployments using tools such as Jenkins, GitLab CI, or Azure DevOps
 A background in solving highly complex, analytical and numerical problems
 Experience of implementing programming best practice, especially around scalability, automation, virtualization, optimization, availability and performance.
+
+java --enable-preview -jar java-concurrent-animated-reboot-0.0.1-SNAPSHOT.jar
