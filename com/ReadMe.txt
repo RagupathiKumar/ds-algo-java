@@ -54,14 +54,14 @@ Shift Operators -
 left shift operator (<<) is multiplication of 2 -- (a * (2 pow b)) is generalized formula for (a << b)
 right shift operator (>>) is division by 2 -- (a / (2 pow b)) is generalized formula for (a >> b)
 Set ith bit, get ith bit and clear ith bit using left shift and right shift (also called mask)
-the lowest set bit or right most bit
+the lowest set bit or right most bit;
 highest set bit and left most bit.
 Bit Manipulation -- << is multiplication of 2, >> is division by 2
 
 Linked List -- Concepts like finding the middle and reversing the linked list will be used in medium to hard level problems (Chaman)
 find middle in linked list -- runner technique aka slow and fast pointer
 linked list cycle -- mathematics behind is Flocyd cycle detection
-LRU cache problem (includes Hashmap and doubly linked list) - very popular interview question
+LRU cache problem (includes Hashmap and doubly linked list) - very popular interview question;
 Floyd's cycle finding algorithm or Hare-Tortoise algorithm or Fast-Slow Pointer algorithm (Also a two pointer approach)
 
 
@@ -70,7 +70,7 @@ Practice Left View, Right View, Top View and Bottom View problems
 Remember a queue with for loop for Tree level by level order traversal.
 Top view of Binary Tree -- level order with Horizontal distance
 Chaman -- all questions discussed in Session 11 & 12 (Tree and BST) are very important problems
-Inorder of BST will give sorted order
+Inorder of BST will give sorted order;
 Complete Binary Tree -- all levels are fully filled except last level. Last level should fill from left to right.
 
 
@@ -83,7 +83,7 @@ PriorityQueue<Dist> minHeap = new PriorityQueue<>(Comparator.comparingInt(pair -
 PriorityQueue<Dist> maxHeap = new PriorityQueue<>((pair1, pair2) -> pair2.dist - pair1.dist);
 
 Graph -
-1. Vertices/Vertex/Node, Edges, Neighbours
+1. Vertices/Vertex/Node, Edges, Neighbors
 2. Types - Undirected/Directed, Cyclic/Acyclic
 3. Graph is generally represented using adjacency list
 4. Traversals - BFS and DFS (Time - O(V+E) and Space - O(V))
@@ -98,7 +98,7 @@ Algorithm	        Use when
 BFS	                Unweighted graph / every edge has same cost
 Dijkstra	        Weighted graph, no negative weights
 Bellman-Ford	    Weighted graph with negative weights
-Floyd-Warshall	    Shortest paths between every pair of nodes
+Floyd-Warshall	    Shortest paths between every pair of nodes;
 A*	                Shortest path when you have a useful heuristic, commonly maps/games
 
 
@@ -132,7 +132,7 @@ Hashing
 At least 8 years of experience in Java with a strong track record in building enterprise-grade applications
 and designing microservices using Spring Boot and Spring Cloud
 Solid expertise in CI/CD practices, including automated testing and deployments using tools such as Jenkins, GitLab CI, or Azure DevOps
-A background in solving highly complex, analytical and numerical problems
+A background in solving highly complex, analytical and numerical problems;
 Experience of implementing programming best practice, especially around scalability, automation, virtualization, optimization, availability and performance.
 
 java --enable-preview -jar java-concurrent-animated-reboot-0.0.1-SNAPSHOT.jar
